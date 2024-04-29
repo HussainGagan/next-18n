@@ -1,0 +1,7 @@
+{
+  "greeting": "Hallo Welt!",
+  "client_component": "Dies ist eine Client-Komponente",
+  "count": "zählen",
+  "increase": "Zunahme",
+  "decrease": "verringern"
+}
