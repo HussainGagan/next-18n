@@ -1,0 +1,816 @@
+{
+  "public": {
+    "404": {
+      "title": "Вы вышли из системы, вернитесь скорее! сдфсдеф",
+      "subtitle": "Страница не найдена",
+      "home": "Дом",
+      "contact_us": "Связаться с нами"
+    },
+    "refer_earn": {
+      "invite_now_btn": "Пригласить сейчас",
+      "invite_friends_btn": "Пригласить друзей",
+      "invite_sent": "Приглашение отправлено",
+      "invite_request_error": "Запрос на приглашение не удался"
+    },
+    "share_earn": {
+      "share_now_btn": "Поделись сейчас"
+    },
+    "out_page": {
+      "skip_cashback": "Пропускать",
+      "your_order_at": "<span> Получите скидку на свой заказ в <span>:store</span>",
+      "sign_up_note": "Бесплатно зарегестрироваться",
+      "click_here": "Кликните сюда",
+      "taking_long_note": "Слишком долго загружается? Пожалуйста, <a class='active pointer' onclick=':LINK' >нажмите здесь</a>",
+      "your_trip_id": "Идентификатор ссылки: <strong>:CLKCODE</strong>",
+      "discount_on_order": "Получите скидку на свой заказ на сайте",
+      "activated_discount": "Активируется при вашем заказе в :STORE",
+      "redirecting_msg": "Вы будете перенаправлены на <span>:STORE</span>...",
+      "shop_now_btn": "Купить сейчас",
+      "guest_order_at": "по вашему заказу в <span>:STORE</span>",
+      "adblocker_alert": "Ваш блокировщик рекламы мешает вам зарабатывать",
+      "track_order_note": "Нам необходимо отслеживать ваши клики, чтобы знать, когда вы имеете право на кэшбэк.",
+      "whitelist_adblocker": "Научитесь добавлять блокировщик рекламы в белый список",
+      "adblocker_shop_now": "Сделанный! Купить сейчас"
+    },
+    "search_page": {
+      "search_result": "Соответствие результатов – :KEYWORD",
+      "no_result": "Подходящего результата поиска не найдено",
+      "stores": "магазины",
+      "deals": "Специальные предложения",
+      "coupon": "Купон",
+      "store_categories": "Категории магазинов",
+      "coupon_categories": "Категории купонов",
+      "deal_categories": "Категории сделок",
+      "server_error": "Внутренняя ошибка сервера. Мы исправим это как можно скорее"
+    },
+    "store": {
+      "shop_with_cashback": "Делайте покупки с :CASHBACK",
+      "show_more_cashback": "Показать больше тарифов",
+      "show_less": "Показывай меньше",
+      "store_categories": "Категории магазинов",
+      "how_it_works": "Как это работает",
+      "view_all_offers": "Посмотреть все предложения :store",
+      "coupon_count": "купоны",
+      "terms_condition": "Условия использования",
+      "terms_dos_title": "Чтобы убедиться, что ваш кэшбэк успешен:",
+      "terms_donts_title": "Он не подходит для:",
+      "shopping_tips": "Советы по покупкам",
+      "similar_stores": "Похожие магазины",
+      "view_all_stores": "Просмотреть все магазины",
+      "tracked_within": "Отслеживается внутри",
+      "confirmed_by": "Подтверждено:",
+      "missing_cashback_claim": "Отсутствующая заявка на кэшбэк разрешена",
+      "see_more_cashback": "Посмотреть больше тарифов",
+      "shop_now_btn": "Купить сейчас",
+      "offers_count": ":COUNT предложений",
+      "explore_map_view": "Исследуйте вид на карте"
+    },
+    "home": {
+      "offer_of_day": "Предложение дня"
+    },
+    "faq": {
+      "still_question": "Еще вопрос",
+      "select_topic": "Выберите тему",
+      "contact_us": "Свяжитесь с нами, и мы позаботимся о том, чтобы на ваш вопрос был дан ответ."
+    },
+    "sitemap": {
+      "deal_categories": "Категории сделок",
+      "coupon_categories": "Категории купонов",
+      "store_categories": "Категории магазинов",
+      "all_pages": "Все страницы",
+      "stores": "магазины"
+    },
+    "contact_us": {
+      "name_placeholder": "Имя",
+      "email_placeholder": "Электронная почта",
+      "msg_placeholder": "Подробно укажите свой запрос, чтобы мы могли понять его и быстро вернуться к ответу.",
+      "subject_placeholder": "Выберите тему/цель",
+      "submit_btn": "Представлять на рассмотрение",
+      "submit_success": "Спасибо, что обратились к нам, мы свяжемся с вами как можно скорее",
+      "cashback_reward": "Кэшбэк и вознаграждение",
+      "my_account": "Мой счет",
+      "refund": "Возвращать деньги"
+    },
+    "deal": {
+      "shop_now_btn": "Купить сейчас",
+      "valid_until": "Действителен до :дата",
+      "product_detail": "Подробная информация о продукте",
+      "similar_deals": "Похожие предложения",
+      "view_all_deals": "Просмотреть все предложения :STORE",
+      "no_deals": "Нет доступных предложений",
+      "load_more": "Загрузи больше...",
+      "view_deals": "Просмотреть все предложения",
+      "deals_from_stores": ":МАГАЗИН магазины",
+      "deals_from_categories": ":КАТЕГОРИИ категории",
+      "deals_from": "Предложения от",
+      "and": "и"
+    },
+    "hiw": {
+      "no_video_suuport": "Ваш браузер не поддерживает видео тег."
+    },
+    "hiw_app": {
+      "its_free": "Это бесплатно",
+      "add_to": "Добавить в: платформа",
+      "learn_more_btn": "Узнать больше"
+    },
+    "testimonial": {
+      "carousel_previous": "Предыдущий"
+    },
+    "promo_offer": {
+      "avail_offer": "Как воспользоваться предложением",
+      "offer_terms": "Условия предложения",
+      "offer_expired": "Срок действия предложения истек!",
+      "enter_number_placeholder": "Введите свой номер телефона",
+      "valid_msg": "Выглядит неплохо!",
+      "your_referral_link": "Ваша реферальная ссылка",
+      "share_link_to_earn": "Поделитесь этой реферальной ссылкой и заработайте реферальные деньги.",
+      "copy_link": "Копировать ссылку",
+      "generate_new_link": "Создать новую ссылку",
+      "your_phone_number": "Ваш номер телефона",
+      "submit": "Представлять на рассмотрение",
+      "select_offer": "Выберите предложение"
+    },
+    "seo": {
+      "redirect_title": "Вы будете перенаправлены на: МАГАЗИН",
+      "search_result_title": "Результаты поиска по :KEYWORD",
+      "verify_account": "подтвердите ваш аккаунт"
+    },
+    "header": {
+      "sign_in": "Войти",
+      "join_us": "Присоединяйтесь к нам",
+      "signin": "Войти"
+    },
+    "coupon": {
+      "shop_now_btn": "Купить сейчас",
+      "load_more": "Загрузи больше...",
+      "no_offers": "Нет доступных предложений",
+      "exp": "Опыт",
+      "coupons_from": "Купоны от",
+      "ongoing": "Непрерывный"
+    },
+    "filter": {
+      "enter_price_range": "Введите диапазон цен",
+      "apply_btn": "Применять",
+      "latest": "Последний",
+      "popular": "Популярный",
+      "expiry": "Срок действия",
+      "price_low_to_high": "Цена (от низкой к высокой)",
+      "price_high_to_low": "Цена (от высокой к низкой)",
+      "all": "Все",
+      "coupons": "купоны",
+      "offers": "Предложения",
+      "filter": "Фильтр",
+      "category_filter": "Категория",
+      "store_filter": "Магазин",
+      "price_filter": "Ценовой фильтр",
+      "max_amount_alert": "Максимальная сумма не может превышать :PRICE.",
+      "to": "К",
+      "search_cat_placeholder": "Поиск",
+      "sort_by": "Сортировать по"
+    },
+    "newsletter": {
+      "error": "Похоже, вы уже подписаны, если нет, повторите попытку позже.",
+      "success": "Успешно оформлена подписка",
+      "enter_email": "Введите адрес электронной почты",
+      "submit_btn": "Представлять на рассмотрение"
+    },
+    "error": {
+      "title": "Вы вышли из системы, вернитесь скорее! сдфсдеф",
+      "subtitle": "Возможно, ссылка, по которой вы перешли, не работает или страница переместилась.",
+      "home": "Иди домой",
+      "contact_us": "Связаться с нами"
+    },
+    "common": {
+      "show_more_btn": "Показать больше",
+      "extra_cashback_rule": "Дополнительные правила кэшбэка",
+      "applicable_stores": "Применимый список магазинов",
+      "view_winners": "Посмотреть победителей",
+      "transaction_time": "Отслеживается в",
+      "store_sales_count": "Номер транзакции",
+      "store_name": "Название магазина",
+      "name": "Имя",
+      "email": "Электронная почта",
+      "cashback_amount": "Сумма кэшбэка",
+      "no_data_found": "Данные не найдены",
+      "previous": "Предыдущий",
+      "next": "Следующий",
+      "extra_cashback_rule_expire_message": "Ваш кэшбэк увеличился в :BOOSTPERCENT раза.",
+      "expires_at": "Срок действия истекает в",
+      "cashback_boost_expires_by": "Бонус кэшбэка истекает через:",
+      "booster_deals": "Бустерные предложения!",
+      "cashback_increased": "Ваш кэшбэк увеличен на"
+    },
+    "verify_phone": {
+      "title": "Вы вышли из системы, вернитесь скорее! сдфсдеф",
+      "desc": "<strong>Прежде всего, мы никогда не будем отправлять вам маркетинговые SMS-сообщения и не сообщать ваш номер.</stong> Мы проверяем номер вашего мобильного телефона, чтобы предотвратить мошенничество. Например, мы можем связаться с вами по вашему мобильному телефону, если обнаружим подозрительную активность на вашем счете кэшбэка.",
+      "msg": "Так что не волнуйтесь"
+    },
+    "extension_uninstall": {
+      "submit_success": "Нам жаль, что вы уходите. Мы надеемся, что однажды вы вернетесь и дадите нам еще одну попытку. А пока берегите себя!",
+      "msg_placeholder": "Подробно укажите свой запрос, чтобы мы могли понять его и быстро вернуться к ответу."
+    }
+  },
+  "user_dashboard": {
+    "search_filter": {
+      "popular": "Популярный",
+      "alphabetical": "Алфавитный",
+      "cashback": "Возврат наличных",
+      "search_records": "Поиск :COUNT записей",
+      "search_record_placeholder": "Поиск записей"
+    },
+    "common": {
+      "cashback": "Возврат наличных",
+      "reward": "Награда",
+      "already_verified": "Уже проверено?",
+      "email_not_verified": "Ваш адрес электронной почты еще не подтвержден, пожалуйста, активируйте",
+      "verify_alert": "Пожалуйста, подтвердите свой адрес электронной почты, чтобы получить полный доступ к своей учетной записи.",
+      "request_verification": "Запросите новую проверку, если электронное письмо не получено.",
+      "resend_verification_btn": "Выслать повторно письмо для подтверждения",
+      "click_here": "Кликните сюда",
+      "cashback_reward_earning": "Кэшбэк и получение вознаграждений",
+      "month_wise_earning": "Просмотр ежемесячного кэшбэка и бонусов",
+      "shopping_trips": "Поездки по магазинам",
+      "view_daily_clicks": "Просмотр ежедневных кликов за последние :DAYS дн.",
+      "up_to": "Вплоть до",
+      "flat": "Плоский",
+      "are_you_sure": "Вы уверены?",
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "overview": {
+      "total_earned": "Всего заработано",
+      "available": "Доступный",
+      "paid": "Оплаченный",
+      "pending": "В ожидании"
+    },
+    "payment": {
+      "payments_tab": "Платежи",
+      "history_tab": "История",
+      "amount_validation_alert": "Сумма должна быть больше минимальной суммы к оплате.",
+      "available_for_payment": "Доступно для оплаты",
+      "payment_mode": "Ваш способ оплаты",
+      "minimum_payout": "Минимальная выплата",
+      "available_payout": "Доступная выплата",
+      "add_payment_mode": "Добавить новый способ оплаты",
+      "not_enough_amount": "Недостаточная сумма",
+      "cashback": "Возврат наличных",
+      "reward": "Награда",
+      "request_payout": "Запрос выплат",
+      "payout_request_success": "Выплата успешно запрошена",
+      "payout_request_error": "Запрос на выплату не выполнен! Попробуйте еще раз",
+      "pending_payment": "Ваш предыдущий запрос находится в обработке. Создайте новый запрос позже.",
+      "not_found": "Запрос на оплату не найден",
+      "already_verified": "Запрос уже подтвержден",
+      "success_verified": "Запрос на оплату успешно подтвержден",
+      "email_sent": "Письмо успешно отправлено!",
+      "email_request_failed": "Запрос по электронной почте не удался",
+      "enter_amount": "Введите сумму",
+      "enter_valid_amount": "Пожалуйста, введите действительную сумму. Десятичное значение не принимается",
+      "previous_request_in_process": "Ваш предыдущий запрос находится в обработке. Создайте новый запрос позже.",
+      "account": "Счет"
+    },
+    "activities": {
+      "shopping_tab": "Покупка",
+      "referral_tab": "Направления",
+      "bonus_tab": "Бонус",
+      "click_tab": "Клики"
+    },
+    "refer_earn": {
+      "invite_friends_reward": "за все транзакции, совершаемые вашим другом.",
+      "copy_link": "Копировать ссылку",
+      "referral_link_note": "Ваша уникальная реферальная ссылка",
+      "invite_by_email": "Пригласить по электронной почте",
+      "email_placeholder": "Электронная почта",
+      "share_with_social": "Поделитесь в социальных сетях",
+      "referral_terms": "Условия реферальной программы",
+      "referral_activities": "Ваша реферальная деятельность",
+      "email_error": "Введите действительный адрес электронной почты",
+      "see_terms": "См. Условия",
+      "invite_sent": "Приглашение отправлено",
+      "enter_email_placeholder": "Введите адрес электронной почты",
+      "invite": "Приглашать",
+      "invite_bonus_condition": "(*Бонус будет отслеживаться как ожидающий подтверждения. Чтобы получить подтверждение бонуса, вам и вашим друзьям необходимо заработать кэшбэк на сумму :MAXCASHBACK в течение :REDEEMLIMIT дней с момента присоединения, в противном случае срок его действия истечет)",
+      "invite_friends_bonus": "Когда кто-нибудь присоединится по вашей реферальной ссылке, вы заработаете",
+      "join_with_refer": "Любой друг, присоединившийся к нашей платформе, заработает",
+      "how_refer_earn_works": "Как работает «Приглашай и зарабатывай»",
+      "eligibility_terms": "Условия участия",
+      "eligibility_terms_first": "Реферальный бонус подтверждается при подтверждении кэшбэка на сумму :AMOUNT, полученного в течение :DAYS дн.",
+      "eligibility_terms_second": "Бонус за присоединение подтверждается, когда в течение :DAYS дней подтвержден кэшбэк на сумму :AMOUNT.",
+      "eligibility_terms_third": "Ваш реферальный бонус подтверждается только тогда, когда подтверждается бонус вашего приглашенного друга.",
+      "eligibility_terms_fourth": "Статус реферального заработка напрямую связан со статусом транзакций вашего друга.",
+      "referral_reward": "Реферальное вознаграждение",
+      "referral_bonus": "Направление бонус",
+      "joining_bonus": "Бонус за присоединение",
+      "disable_warn": "Функция «Приглашай и зарабатывай» для вашей учетной записи отключена. Свяжитесь с нами для получения дополнительной информации."
+    },
+    "share_earn": {
+      "create_link": "Создавайте свои собственные ссылки и зарабатывайте деньги, когда другие делают покупки.",
+      "link_title_note": "Введите осмысленный заголовок, чтобы ваш друг знал подробности предложений.",
+      "offer_link_placeholder": "Введите ссылку на предложение",
+      "offer_title_placeholder": "Введите название предложения",
+      "link_note": "Введите четкую ссылку, никаких реферальных и персонализированных ссылок.",
+      "create_link_btn": "Создать ссылку",
+      "learn_share_earn": "Узнайте, делитесь и зарабатывайте",
+      "link_success_msg": "Ссылка успешно создана. Скопируйте эту ссылку и поделитесь",
+      "share_with": "Поделиться с",
+      "validation_error": "Пожалуйста, заполните все детали",
+      "offer_title": "Название предложения",
+      "copy_link": "Копировать ссылку",
+      "or": "ИЛИ",
+      "create_new_link": "Создать новую ссылку",
+      "offer_title_note": "Введите осмысленный заголовок, чтобы ваш друг знал подробности предложений.",
+      "link_error_msg": "Пожалуйста, введите действительную ссылку",
+      "network_error": "Ошибка сети",
+      "copied_link": "Скопирована ссылка",
+      "offer_link": "Предложить ссылку",
+      "how_share_earn_works": "Как работает «Делись и зарабатывай»",
+      "see_terms": "Посмотреть условия",
+      "disable_warn": "Функция «Поделиться и зарабатывать» для вашей учетной записи отключена. Свяжитесь с нами для получения дополнительной информации."
+    },
+    "account_setting": {
+      "edit_profile": "Редактировать профиль",
+      "manage_profile": "Управляйте информацией своего профиля.",
+      "firstname_placeholder": "Введите имя",
+      "lastname_placeholder": "Введите фамилию",
+      "change_password": "Изменить пароль",
+      "manage_password": "Управление паролем",
+      "current_password": "Текущий пароль",
+      "current_password_placeholder": "Введите текущий пароль",
+      "new_password": "Новый пароль",
+      "change_password_btn": "Изменить пароль",
+      "change_email_note": "Чтобы изменить адрес электронной почты, свяжитесь с нами.",
+      "resend_btn": "Отправить",
+      "confirm_password_validation": "Новый пароль и подтверждение паролей не совпадают.",
+      "form_validation": "Введите все значения",
+      "firstname": "Имя",
+      "lastname": "Фамилия",
+      "save_btn": "Сохранять",
+      "new_password_placeholder": "Введите новый пароль",
+      "confirm_password": "Подтвердите пароль",
+      "confirm_password_placeholder": "Введите подтверждение пароля",
+      "email": "Электронная почта",
+      "email_placeholder": "Электронная почта",
+      "link_mobile_number": "Привязать номер мобильного телефона",
+      "link_number_note": "Свяжитесь с нами, чтобы изменить номер мобильного телефона.",
+      "bio_placeholder": "Био",
+      "bio": "Био",
+      "birth_date": "Дата рождения",
+      "anniversary_date": "Юбилейная дата",
+      "gender": "Пол",
+      "marital_status": "Семейное положение",
+      "occupation": "Занятие",
+      "occupation_placeholder": "Занятие",
+      "address": "Адрес",
+      "address_placeholder": "Адрес",
+      "city": "Город",
+      "city_placeholder": "Город",
+      "state": "Состояние",
+      "state_placeholder": "Состояние",
+      "country": "Страна",
+      "pincode": "Пин-код",
+      "pincode_placeholder": "Пин-код",
+      "choose_lang": "Выберите язык",
+      "profile_info_updated": "Профиль успешно обновлен!",
+      "request_failed_try_again": "Запрос не выполнен. Пожалуйста, попробуйте еще раз!",
+      "lang_updated": "Язык успешно обновлен!",
+      "lang_update_request_failed": "Запрос на обновление языка не выполнен",
+      "password_change_success": "Пароль успешно изменен!",
+      "change_password_error": "Запрос на смену пароля не удался! Попробуйте еще раз",
+      "activation_link_sent": "Ссылка для активации аккаунта отправлена ​​на вашу почту, проверьте пожалуйста",
+      "activation_failed": "Активация аккаунта не удалась",
+      "name_updated": "Имя успешно обновлено!",
+      "male": "Мужской",
+      "female": "Женский",
+      "other": "Другой",
+      "enter_value_alert": "Пожалуйста, заполните все обязательные поля",
+      "married": "Женатый",
+      "single": "Одинокий",
+      "please_select": "Пожалуйста выберите",
+      "email_verification_note": "Электронная почта НЕ подтверждена. Выслать повторно письмо для подтверждения.",
+      "wrong_password": "Текущее значение пароля неверно",
+      "invalid_lang": "Неверный язык",
+      "same_password": "Текущий пароль и Новый пароль аналогичны. Пожалуйста, выберите другой пароль",
+      "account_deleted": "Аккаунт удален",
+      "delete_my_account": "Удалите мой аккаунт"
+    },
+    "payment_mode": {
+      "validation_error": "Пожалуйста, заполните все детали",
+      "name": "Имя",
+      "add": "Добавлять",
+      "name_placeholder": "Имя моей личной учетной записи",
+      "payment_mode_success": "Режим оплаты успешно добавлен!",
+      "payment_mode_error": "Запрос на добавление режима выплат не выполнен.",
+      "invalid_mode": "Неверный способ оплаты",
+      "not added": "Способ оплаты не добавлен",
+      "payment_mode_not_exist": "Режим оплаты не существует.",
+      "payment_mode_delete_success": "Режим оплаты успешно удален!",
+      "payment_mode_update_error": "Запрос на обновление режима выплат не выполнен.",
+      "payment_mode_update_success": "Режим оплаты успешно обновлен!"
+    },
+    "favorites": {
+      "no_favorite_found": "Любимые магазины не найдены!",
+      "loading": "загрузка...",
+      "cashback": "Возврат наличных",
+      "shop_now": "Купить сейчас"
+    },
+    "claim": {
+      "validation_error": "Пожалуйста, заполните все детали",
+      "create_claim": "Создать заявку",
+      "create_claim_btn": "Создать заявку",
+      "store": "Магазин",
+      "shopping_trip": "Поездка за покупками",
+      "ordering_platform": "Платформа заказа",
+      "order_id": "номер заказа",
+      "currency": "Валюта",
+      "amount_placeholder": "Количество",
+      "date": ":attribute не является допустимой датой.",
+      "additional_information": "Дополнительная информация",
+      "submit_btn": "Представлять на рассмотрение",
+      "note": "Мы никогда ничего не будем публиковать без вашего разрешения",
+      "create_claim_success": "Заявка успешно создана!",
+      "claim_request_failed": "Запрос претензии не выполнен! Попробуйте еще раз",
+      "no_claims": "Претензий не обнаружено!",
+      "purchase_date": "Дата покупки",
+      "website": "Веб-сайт",
+      "mobile": "мобильный",
+      "ios": "iOS",
+      "android": "Андроид",
+      "ordering_id": "Идентификатор заказа",
+      "closed": "Претензия закрыта",
+      "receipt": "Квитанция",
+      "max_size_note": "Максимально допустимый размер файла: MAXSIZE. Принимаемый формат — jpeg,jpg,png,pdf.",
+      "no_click_note": "За последние пару дней не было обнаружено покупок, по которым можно было бы сообщить о пропаже заявки. Проверьте позже.",
+      "show": "Показывать"
+    },
+    "nav_menu": {
+      "welcome": "Добро пожаловать!",
+      "joined_on": "Присоединился"
+    },
+    "pagination": {
+      "show": "Показывать",
+      "page": "Страница"
+    }
+  },
+  "table": {
+    "shopping": {
+      "no_data": "Данные не найдены",
+      "click_id": "Нажмите",
+      "date": ":attribute не является допустимой датой.",
+      "store": "Магазин",
+      "order_amount": "Сумма заказа",
+      "cashback_amount": "Сумма кэшбэка",
+      "status": "Положение дел",
+      "transaction_time": "Отслеживается в",
+      "confirmed_by": "Подтверждено:",
+      "confirmed": "bhfgbghfd",
+      "pending": "В ожидании",
+      "declined": "Отклоненный",
+      "reward": "Награда",
+      "cashback": "Возврат наличных"
+    },
+    "referral": {
+      "date": ":attribute не является допустимой датой.",
+      "transaction_by": "Транзакция",
+      "store": "Магазин",
+      "amount": "Количество",
+      "status": "Положение дел",
+      "no_data": "Данные не найдены",
+      "order_amount": "Сумма заказа",
+      "referral_amount": "Реферальная сумма",
+      "pending": "В ожидании",
+      "confirmed": "bhfgbghfd",
+      "declined": "Отклоненный",
+      "joined": "Присоединился",
+      "invited": "Приглашенный"
+    },
+    "bonus": {
+      "status": "Положение дел",
+      "date": ":attribute не является допустимой датой.",
+      "type": "Тип",
+      "amount": "Количество",
+      "no_data": "Данные не найдены",
+      "expires_on": "Годен до",
+      "pending": "В ожидании",
+      "confirmed": "bhfgbghfd",
+      "declined": "Отклоненный"
+    },
+    "click": {
+      "trip_date": "Дата поездки",
+      "click_id": "Нажмите",
+      "store": "Магазин",
+      "cashback": "Возврат наличных",
+      "status": "Положение дел",
+      "no_data": "Данные не найдены",
+      "tracked": "Отслеживаются",
+      "clicked": "Щелкнул",
+      "network_campaign_id": "Идентификатор кампании"
+    },
+    "claim": {
+      "claim_date": "Дата претензии",
+      "shopping_trip_date": "Дата поездки за покупками",
+      "status": "Положение дел",
+      "store": "Магазин",
+      "order_id": "номер заказа",
+      "order_amount": "Сумма заказа",
+      "created": "Созданный",
+      "completed": "Завершенный",
+      "processing": "Обработка",
+      "declined": "Отклоненный",
+      "open": "Открыть",
+      "hold": "Держать",
+      "answered": "Ответил",
+      "closed": "Претензия закрыта",
+      "claim_id": "Идентификатор заявки",
+      "network_campaign_id": "Идентификатор кампании"
+    },
+    "refer_earn": {
+      "invited_date": "Дата приглашения",
+      "email": "Электронная почта",
+      "joining_date": "Дата вступления",
+      "name": "Имя",
+      "earning": "Заработок"
+    },
+    "share_earn": {
+      "created": "Созданный",
+      "offer_link": "Предложить ссылку",
+      "store": "Магазин",
+      "cashback": "Возврат наличных",
+      "earnings": "Заработок",
+      "clicks": "Клики"
+    },
+    "payment_history": {
+      "date": ":attribute не является допустимой датой.",
+      "withdrawal_id": "Идентификатор вывода",
+      "account_type": "тип аккаунта",
+      "payment_account": "платежный счет",
+      "amount": "Количество",
+      "status": "Положение дел",
+      "resend_email": "Отправить письмо повторно",
+      "pending_verification": "Ожидание подтверждения электронной почты"
+    },
+    "general": {
+      "no_data": "Данные не найдены"
+    },
+    "cashback": {
+      "pending": "В ожидании",
+      "confirmed": "bhfgbghfd",
+      "declined": "Отклоненный"
+    },
+    "payment": {
+      "created": "Созданный",
+      "processing": "Обработка",
+      "completed": "Завершенный",
+      "declined": "Отклоненный",
+      "pending": "В ожидании",
+      "confirmed": "bhfgbghfd"
+    }
+  },
+  "common": {
+    "header_search": {
+      "search_placehoder": "Поиск в магазине"
+    },
+    "scroll_up": {
+      "top": "Вершина"
+    },
+    "search_filter": {
+      "cashback": "Возврат наличных",
+      "popular": "Популярный",
+      "alphabetical": "Алфавитный",
+      "store_with_cashback": "Показать магазины с кэшбэком",
+      "search_cat": "Категории поиска",
+      "search_stores": "Поиск магазинов",
+      "filter_btn": "Фильтр"
+    },
+    "breadcrumb": {
+      "home": "Дом",
+      "all_stores": "Все магазины",
+      "all_deals": "Все предложения",
+      "all_coupon_categories": "Все категории купонов",
+      "all_store_categories": "Все категории магазинов",
+      "daily_deals": "Ежедневные Сделки",
+      "all_deal_categories": "Все категории предложений",
+      "extra_cashback_rules": "Дополнительные правила кэшбэка"
+    },
+    "general": {
+      "best_offer": "Лучшее предложение",
+      "see_more": "Узнать больше",
+      "see_less": "Смотрите меньше",
+      "view_more_deals": "Посмотреть больше:предложения CATEGORY",
+      "yes": "Да",
+      "no": "нет",
+      "get_code_btn": "Получить код",
+      "view_more_store": "Посмотреть больше:CATEGORY Магазины",
+      "view_more_coupons": "Посмотреть больше:КАТЕГОРИЯ купоны",
+      "copy_code_tooltip": "Скопируйте код и посетите продавца",
+      "get_discount": "Получить скидку",
+      "show_more": "Показать больше",
+      "shop_now_btn": "Купить сейчас",
+      "see_more_cashback": "Посмотреть больше",
+      "android": "Андроид",
+      "apple": "Яблоко",
+      "chrome": "Хром",
+      "firefox": "Fire Fox",
+      "safari": "Сафари",
+      "no_stores": "Нет магазинов, пожалуйста, зайдите позже",
+      "edge": "Край"
+    },
+    "store_cashback": {
+      "was_cashback_string": "Был :КЭШБЭК",
+      "upto": "Вплоть до",
+      "flat": "Плоский"
+    },
+    "cta": {
+      "join_now": "Присоединяйся сейчас",
+      "existing_user": "Существующий пользователь",
+      "login": "Авторизоваться",
+      "already_register": "Уже зарегистрирован?"
+    },
+    "mobile_menu": {
+      "logout": "Выйти",
+      "language": "Язык",
+      "my_account": "Мой счет",
+      "signin": "Войти",
+      "join_us": "Присоединяйтесь к нам"
+    },
+    "error": {
+      "general": "Что-то пошло не так, повторите попытку позже."
+    },
+    "desktop_menu": {
+      "signin": "Войти",
+      "join_us": "Присоединяйтесь к нам"
+    }
+  },
+  "custom_validation": {
+    "attribute-name": {
+      "rule-name": "имя-правила"
+    },
+    "g-recaptcha-response": {
+      "required": "Поле :attribute является обязательным."
+    },
+    "general": {
+      "captcha": "Ошибка капчи! Повторите попытку позже или свяжитесь с администратором сайта."
+    }
+  },
+  "validation": {
+    "general": {
+      "accepted": "Атрибут :attribute должен быть принят.",
+      "active_url": ":attribute не является допустимым URL-адресом.",
+      "after": ":attribute должен быть датой после :date.",
+      "after_or_equal": ":attribute должен быть датой, следующей за :date или равной ей.",
+      "alpha": ":attribute может содержать только буквы.",
+      "alpha_dash": ":attribute может содержать только буквы, цифры, тире и подчеркивания.",
+      "alpha_num": ":attribute может содержать только буквы и цифры.",
+      "array": ":attribute должен быть массивом.",
+      "before": ":attribute должен быть датой перед :date.",
+      "before_or_equal": ":attribute должен быть датой, предшествующей :date или равной ей.",
+      "boolean": "Поле :attribute должно иметь значение true или false.",
+      "confirmed": "bhfgbghfd",
+      "date": ":attribute не является допустимой датой.",
+      "date_equals": ":attribute должен быть датой, равной :date.",
+      "date_format": ":attribute не соответствует формату :format.",
+      "different": ":attribute и :other должны быть разными.",
+      "digits": ":attribute должен быть :digits.",
+      "digits_between": "Значение :attribute должно находиться между цифрами :min и :max.",
+      "dimensions": ":attribute имеет недопустимые размеры изображения.",
+      "distinct": "Поле :attribute имеет повторяющееся значение.",
+      "email": "Электронная почта",
+      "ends_with": ":attribute должен заканчиваться одним из следующих значений: :values.",
+      "exists": "Выбранный :attribute недействителен.",
+      "file": "Поле :attribute имеет повторяющееся значение.",
+      "filled": "Поле :attribute должно иметь значение.",
+      "image": ":attribute должен быть изображением.",
+      "in": "Выбранный :attribute недействителен.",
+      "in-array": "Поле :attribute не существует в :other.",
+      "integer": ":attribute должен быть целым числом.",
+      "ip": ":attribute должен быть действительным IP-адресом.",
+      "ipv4": ":attribute должен быть действительным IPv4-адресом.",
+      "ipv6": ":attribute должен быть действительным адресом IPv6.",
+      "json": ":attribute должен быть допустимой строкой JSON.",
+      "mimes": ":attribute должен быть файлом типа: :values.",
+      "mimetypes": ":attribute должен быть файлом типа: :values.",
+      "not_in": "Выбранный :attribute недействителен.",
+      "not_regex": "Формат :attribute недействителен.",
+      "numeric": ":attribute должен быть числом.",
+      "password": "Неправильный пароль.",
+      "present": "Поле :attribute должно присутствовать.",
+      "regex": "Формат :attribute недействителен.",
+      "required": "Поле :attribute является обязательным.",
+      "required_if": "Поле :attribute является обязательным, если :other равно :value.",
+      "required_unless": "Поле :attribute является обязательным, если :other не находится в :values.",
+      "required_with": "Поле :attribute является обязательным, если присутствует :values.",
+      "required_with_all": "Поле :attribute является обязательным, если присутствуют :values.",
+      "required_without": "Поле :attribute требуется, если :values ​​отсутствует.",
+      "required_without_all": "Поле :attribute является обязательным, если ни одно из значений :value не присутствует.",
+      "same": ":attribute и :other должны совпадать.",
+      "string": ":attribute должен быть строкой.",
+      "timezone": ":attribute должен быть допустимой зоной.",
+      "unique": ":attribute уже занят.",
+      "uploaded": "Не удалось загрузить атрибут :attribute.",
+      "url": "Формат :attribute недействителен.",
+      "uuid": ":attribute должен быть действительным UUID.",
+      "email_not_exist": "Электронная почта не существует",
+      "not_registerd_using_email": "Вы не можете сбросить пароль, потому что вы не зарегистрировались по электронной почте.",
+      "phone_number_exist": "Номер телефона уже существует"
+    },
+    "between": {
+      "numeric": ":attribute должен находиться в диапазоне от :min до :max.",
+      "file": "Размер :attribute должен находиться в диапазоне от :min до :max килобайт.",
+      "string": ":attribute должен находиться между символами :min и :max.",
+      "array": ":attribute должен находиться между элементами :min и :max."
+    },
+    "gt": {
+      "numeric": ":attribute должен быть больше :value.",
+      "file": ":attribute должен быть больше :value в килобайтах.",
+      "string": ":attribute должен содержать больше символов :value.",
+      "array": ":attribute должен содержать более :value элементов."
+    },
+    "gte": {
+      "numeric": ":attribute должен быть больше или равен :value.",
+      "file": ":attribute должен быть больше или равен :value в килобайтах.",
+      "string": ":attribute должен быть больше или равен :value символов.",
+      "array": ":attribute должен содержать элементы :value или более."
+    },
+    "lt": {
+      "numeric": ":attribute должен быть меньше :value.",
+      "file": "Размер :attribute должен быть меньше :value в килобайтах.",
+      "string": ":attribute должен содержать меньше символов :value.",
+      "array": "В атрибуте :attribute должно быть меньше элементов :value."
+    },
+    "lte": {
+      "numeric": ":attribute должен быть меньше или равен :value.",
+      "file": "Значение :attribute должно быть меньше или равно :value в килобайтах.",
+      "string": ":attribute должен быть меньше или равен :value символов.",
+      "array": ":attribute не должен содержать более :value элементов."
+    },
+    "max": {
+      "numeric": ":attribute не может быть больше :max.",
+      "file": ":attribute не может превышать :max килобайт.",
+      "string": ":attribute не может содержать более :max символов.",
+      "array": ":attribute не может содержать более :max элементов."
+    },
+    "min": {
+      "numeric": ":attribute должен быть не меньше :min.",
+      "file": "Размер :attribute должен быть не менее :min килобайт.",
+      "string": ":attribute должен содержать не менее :min символов.",
+      "array": "В атрибуте :attribute должно быть не менее :min элементов."
+    },
+    "size": {
+      "numeric": ":attribute должен быть :size.",
+      "file": ":attribute должен быть :size в килобайтах.",
+      "string": ":attribute должен содержать символы :size.",
+      "array": ":attribute должен содержать элементы :size."
+    },
+    "attributes": {
+      "email": "Электронная почта",
+      "g-recaptcha-response": "g-recaptcha-ответ",
+      "privacy policy": "Политика конфиденциальности",
+      "referrer_code": "Код реферера",
+      "password": "Пароль",
+      "phone": "Телефон",
+      "store_id": "Магазин",
+      "click_id": "Нажмите",
+      "platform": "Платформа",
+      "order_amount": "Сумма заказа",
+      "currency": "Валюта",
+      "transaction_date": "Дата сделки",
+      "user_message": "Сообщение пользователя",
+      "comment": "Комментарий",
+      "mode": "Режим",
+      "method_name": "Имя метода",
+      "account": "Счет",
+      "pay_mode": "Режим оплаты",
+      "payment_amount": "К оплате",
+      "old_password": "Старый пароль",
+      "new_password": "Новый пароль",
+      "repeat_password": "Повторите пароль",
+      "name": "Имя",
+      "message": "Сообщение",
+      "reason": "Причина",
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "otp": "ОТП",
+      "phone_number": "Номер телефона",
+      "order_id": "номер заказа"
+    }
+  },
+  "app": {
+    "auth": {
+      "email_sent": "Письмо было отправлено"
+    }
+  },
+  "mail": {
+    "extention": {
+      "install_extension": "Установите расширение браузера :APPNAME.",
+      "never_miss_cashback": "Никогда не упустите возможность заработать дополнительный кэшбэк!"
+    },
+    "app": {
+      "access_from_smartphone": "Теперь получите доступ к :APPNAME со своего смартфона!"
+    },
+    "social": {
+      "get_social": "Давайте общаться!"
+    },
+    "footer": {
+      "note": "Мы никогда ничего не будем публиковать без вашего разрешения"
+    }
+  }
+}

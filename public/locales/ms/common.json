@@ -1,0 +1,903 @@
+{
+  "auth": {
+    "form": {
+      "email_placeholder": "E-mel",
+      "password_placeholder": "Masukkan kata laluan",
+      "existing_user": "Pengguna Sedia Ada",
+      "note": "Kami tidak akan menyiarkan apa-apa tanpa kebenaran anda",
+      "terms_apply": "Syarat Bonus Penyertaan & Rujukan Terpakai*",
+      "remember_me": "Ingat Saya",
+      "reset_password": "Menetapkan semula kata laluan anda",
+      "email_valid_msg": "Nampak bagus!",
+      "forgot_password_link": "Lupa kata laluan?",
+      "forgot_password_note": "Masukkan alamat e-mel anda dan kami akan menghantar arahan untuk menetapkan semula kata laluan anda",
+      "time_left": "Masa yang tinggal =",
+      "not_member": "Bukan Ahli",
+      "sign_up_get": "Daftar & dapatkan",
+      "today": "Hari ini",
+      "social_media_signup": "Selamat datang! Anda hanya dengan satu klik sahaja untuk menyertai laman web pulangan tunai #1.",
+      "someone_refer_you": "Adakah seseorang merujuk anda?",
+      "enter_otp": "Masukkan OTP",
+      "social_media_email_validation": "Masukkan e-mel yang sah untuk menerima pautan pengesahan",
+      "agree_policy": "Saya Bersetuju untuk <a href=':PRIVACY' class='text-purple' target='_blank'> Dasar Privasi</a> dan <a href=':TERMS' class='text-purple' target='_blank '>Syarat Penggunaan</a>",
+      "forgot_password": "Lupa kata laluan!",
+      "signin": "Log Masuk",
+      "send_reset_link": "Hantar Pautan Tetapan Semula Kata Laluan",
+      "signin_with_facebook": "Daftar masuk dengan Facebook",
+      "signin_with_google": "Log masuk dengan Google",
+      "signin_with_apple": "Log masuk dengan Apple",
+      "enter_mobile_number": "Sila masukkan nombor telefon bimbit anda",
+      "request_otp": "Minta OTP",
+      "resend_otp": "Hantar semula OTP",
+      "verify_now": "perakui sekarang",
+      "referral_code_placeholder": "Kod Rujukan (Pilihan)",
+      "email_placeholder_2": null,
+      "email_placeholder_test_2": null,
+      "email_placeholder_test_3": null,
+      "email_placeholder_6": null
+    },
+    "button": {
+      "change_password": "Tukar kata laluan",
+      "signin": "Log Masuk",
+      "join_now": "Sertai sekarang",
+      "logout": "Log keluar"
+    },
+    "general": {
+      "failed": "Bukti kelayakan ini tidak sepadan dengan rekod kami.",
+      "throttle": "Terlalu banyak percubaan log masuk. Sila cuba sebentar lagi.",
+      "invalid_signature": "Tandatangan Tidak Sah",
+      "maintenance_mode": "Kami turun untuk Penyelenggaraan",
+      "maintenance_mode_desc": "Laman web ini sedang menjalani penyelenggaraan dan kami akan kembali secara langsung tidak lama lagi. Hargai kesabaran anda!",
+      "maintenance_mode_meta_title": "Laman web dalam penyelenggaraan"
+    },
+    "toast": {
+      "login_success": "Anda berjaya log masuk",
+      "logout_success": "Anda telah log keluar, kembali segera!",
+      "verify_info": "Akaun anda telah pun disahkan.",
+      "verify_success": "Anda telah berjaya mengesahkan e-mel anda, sekatan dialih keluar daripada akaun anda sekarang",
+      "register_success": "Terima kasih kerana mendaftar. Sila sahkan e-mel dan nombor telefon bimbit anda dengan mengklik pada pautan yang diterima pada e-mel anda.",
+      "reset_password_success": "Kata laluan anda telah berjaya ditetapkan semula.",
+      "login_to_proceed": "Anda perlu log masuk untuk meneruskan"
+    },
+    "ajax": {
+      "login_success": "Anda berjaya log masuk",
+      "login_error": "E-mel dan/atau kata laluan tidak sah.",
+      "otp_sent": "OTP Dihantar",
+      "otp_send_error": "Tidak dapat menghantar OTP, cuba lagi kemudian",
+      "otp_error": "Sesuatu telah berlaku",
+      "otp_validation": "Nombor Telefon dan OTP diperlukan",
+      "otp_verify_success": "Disahkan",
+      "otp_verify_error": "OTP Tidak Padan, sila semak dan cuba lagi",
+      "register_success": "Terima kasih kerana mendaftar. Sila sahkan e-mel dan nombor telefon bimbit anda dengan mengklik pada pautan yang diterima pada e-mel anda.",
+      "forgot_password_success": "pautan kata laluan dihantar ke e-mel.",
+      "social_media_login_error": "sesuatu telah berlaku!",
+      "unable_to_create_account": "Tidak dapat mencipta akaun",
+      "password_updated": "Kata Laluan Dikemaskini",
+      "otp_invalid": "OTP tidak sah",
+      "user_not_exist": "Pengguna tidak wujud",
+      "user_logged_out": "Pengguna telah log keluar",
+      "cross_user_request": "Silang Permintaan Pengguna atau Pengguna log keluar",
+      "invalid_session": "Sesi tidak sah",
+      "invalid_token": "Token tidak sah",
+      "user_banned": "Pengguna ini diharamkan",
+      "invalid_credentials": "Bukti kelayakan yang diberikan adalah salah."
+    },
+    "verify": {
+      "title": "Anda telah log keluar, kembali segera! sdfsdef"
+    }
+  },
+  "public": {
+    "404": {
+      "title": "Anda telah log keluar, kembali segera! sdfsdef",
+      "subtitle": "Laman tidak dijumpai",
+      "home": "Rumah",
+      "contact_us": "Hubungi Kami"
+    },
+    "refer_earn": {
+      "invite_now_btn": "Jemput Sekarang",
+      "invite_friends_btn": "Menjemput kawan-kawan",
+      "invite_sent": "Jemputan Dihantar",
+      "invite_request_error": "Permintaan jemputan gagal"
+    },
+    "share_earn": {
+      "share_now_btn": "Kongsi Sekarang"
+    },
+    "out_page": {
+      "skip_cashback": "Langkau",
+      "your_order_at": "<span> Nikmati diskaun untuk pesanan anda di <span>:store</span>",
+      "sign_up_note": "Daftar secara percuma",
+      "click_here": "Tekan di sini",
+      "taking_long_note": "Mengambil masa terlalu lama untuk memuatkan? Sila <a class='active pointer' onclick=':LINK' >klik di sini</a>",
+      "your_trip_id": "ID Rujukan: <strong>:CLKCODE</strong>",
+      "discount_on_order": "Nikmati diskaun untuk pesanan anda di",
+      "activated_discount": "Diaktifkan pada pesanan anda di :STORE",
+      "redirecting_msg": "Anda sedang diubah hala ke <span>:STORE</span>...",
+      "shop_now_btn": "Berbelanjalah sekarang",
+      "guest_order_at": "pada pesanan anda di <span>:STORE</span>",
+      "adblocker_alert": "Penyekat iklan anda menghalang anda daripada memperoleh pendapatan",
+      "track_order_note": "Kami perlu menjejaki klik anda untuk mengetahui bila anda layak mendapat pulangan tunai.",
+      "whitelist_adblocker": "Belajar untuk Senarai Putih Penyekat Iklan",
+      "adblocker_shop_now": "Selesai! Berbelanjalah sekarang"
+    },
+    "search_page": {
+      "search_result": "Keputusan sepadan - :KATA KUNCI",
+      "no_result": "Tiada hasil carian yang sepadan ditemui",
+      "stores": "Kedai",
+      "deals": "Tawaran",
+      "coupon": "kupon",
+      "store_categories": "Kategori Kedai",
+      "coupon_categories": "Kategori Kupon",
+      "deal_categories": "Kategori Tawaran",
+      "server_error": "Ralat Pelayan Dalaman. Kami sedang membetulkannya secepat mungkin"
+    },
+    "store": {
+      "shop_with_cashback": "Beli Dengan :CASHBACK",
+      "show_more_cashback": "Tunjukkan Lagi Kadar",
+      "show_less": "Tunjukkan Kurang",
+      "store_categories": "Kategori Kedai",
+      "how_it_works": "Bagaimana ia berfungsi",
+      "view_all_offers": "Lihat Semua : Tawaran kedai",
+      "coupon_count": "kupon",
+      "terms_condition": "Terma & Syarat",
+      "terms_dos_title": "Untuk Memastikan Pulangan Tunai Anda Berjaya:",
+      "terms_donts_title": "Ia Tidak Layak Untuk:",
+      "shopping_tips": "Tips Membeli-belah",
+      "similar_stores": "Kedai Serupa",
+      "view_all_stores": "Lihat Semua Kedai",
+      "tracked_within": "Dijejaki Dalam",
+      "confirmed_by": "Disahkan oleh:",
+      "missing_cashback_claim": "Tuntutan Pulangan Tunai Hilang Dibenarkan",
+      "see_more_cashback": "Lihat Lagi Kadar",
+      "shop_now_btn": "Berbelanjalah sekarang",
+      "offers_count": ":COUNT Tawaran",
+      "explore_map_view": "Terokai Paparan Peta"
+    },
+    "home": {
+      "offer_of_day": "Tawaran Hari Ini"
+    },
+    "faq": {
+      "still_question": "Masih Soalan",
+      "select_topic": "Pilih Topik",
+      "contact_us": "Hubungi kami dan kami akan memastikan soalan anda dijawab."
+    },
+    "sitemap": {
+      "deal_categories": "Kategori Tawaran",
+      "coupon_categories": "Kategori Kupon",
+      "store_categories": "Kategori Kedai",
+      "all_pages": "Semua Halaman",
+      "stores": "Kedai"
+    },
+    "contact_us": {
+      "name_placeholder": "Nama",
+      "email_placeholder": "E-mel",
+      "msg_placeholder": "Sebut pertanyaan anda secara terperinci supaya kami dapat memahami dan berbalik dengan cepat.",
+      "subject_placeholder": "Pilih Subjek/tujuan",
+      "submit_btn": "Hantar",
+      "submit_success": "Terima kasih kerana menghubungi kami, kami akan menghubungi anda secepat mungkin",
+      "cashback_reward": "Pulangan Tunai & Ganjaran",
+      "my_account": "Akaun saya",
+      "refund": "Bayaran balik"
+    },
+    "deal": {
+      "shop_now_btn": "Berbelanjalah sekarang",
+      "valid_until": "Sah Sehingga :tarikh",
+      "product_detail": "Butiran produk",
+      "similar_deals": "Tawaran Serupa",
+      "view_all_deals": "Lihat Semua : Tawaran STORE",
+      "no_deals": "Tiada Tawaran tersedia",
+      "load_more": "Tambah lagi...",
+      "view_deals": "Lihat Semua Tawaran",
+      "deals_from_stores": ":Kedai kedai",
+      "deals_from_categories": ":KATEGORI KATEGORI",
+      "deals_from": "Tawaran daripada",
+      "and": "dan"
+    },
+    "hiw": {
+      "no_video_suuport": "Penyemak imbas anda tidak menyokong teg video."
+    },
+    "hiw_app": {
+      "its_free": "Ianya percuma",
+      "add_to": "Tambahkan ke :platform",
+      "learn_more_btn": "Ketahui Lebih Lanjut"
+    },
+    "testimonial": {
+      "carousel_previous": "Sebelumnya"
+    },
+    "promo_offer": {
+      "avail_offer": "Cara Mendapat Tawaran",
+      "offer_terms": "Terma & Syarat Tawaran",
+      "offer_expired": "Tawaran Telah Tamat!",
+      "enter_number_placeholder": "Masukkan nombor telefon anda",
+      "valid_msg": "Nampak bagus!",
+      "your_referral_link": "Pautan rujukan anda",
+      "share_link_to_earn": "Kongsi pautan rujukan ini dan dapatkan wang tunai rujukan.",
+      "copy_link": "Salin pautan",
+      "generate_new_link": "Hasilkan Pautan Baharu",
+      "your_phone_number": "Nombor telefon anda",
+      "submit": "Hantar",
+      "select_offer": "Pilih Tawaran"
+    },
+    "seo": {
+      "redirect_title": "Anda sedang diubah hala ke :STORE",
+      "search_result_title": "Hasil Carian untuk :KEYWORD",
+      "verify_account": "Sahkan akaun anda"
+    },
+    "header": {
+      "sign_in": "Log Masuk",
+      "join_us": "Sertai kami",
+      "signin": "Log Masuk"
+    },
+    "coupon": {
+      "shop_now_btn": "Berbelanjalah sekarang",
+      "load_more": "Tambah lagi...",
+      "no_offers": "Tiada Tawaran tersedia",
+      "exp": "Exp",
+      "coupons_from": "Kupon daripada",
+      "ongoing": "Sedang berlangsung"
+    },
+    "filter": {
+      "enter_price_range": "Masukkan Julat harga",
+      "apply_btn": "Mohon",
+      "latest": "Terkini",
+      "popular": "Popular",
+      "expiry": "tamat tempoh",
+      "price_low_to_high": "Harga (rendah ke tinggi)",
+      "price_high_to_low": "Harga (tinggi ke rendah)",
+      "all": "Semua",
+      "coupons": "kupon",
+      "offers": "Tawaran",
+      "filter": "Penapis",
+      "category_filter": "kategori",
+      "store_filter": "Kedai",
+      "price_filter": "Penapis harga",
+      "max_amount_alert": "Jumlah maksimum tidak boleh melebihi :PRICE",
+      "to": "Kepada",
+      "search_cat_placeholder": "Cari",
+      "sort_by": "Disusun mengikut"
+    },
+    "newsletter": {
+      "error": "Nampaknya anda sudah melanggan, jika tidak, sila cuba lagi kemudian",
+      "success": "Berjaya melanggan",
+      "enter_email": "Masukkan email",
+      "submit_btn": "Hantar"
+    },
+    "error": {
+      "title": "Anda telah log keluar, kembali segera! sdfsdef",
+      "subtitle": "Pautan yang anda klik mungkin rosak atau halaman mungkin telah berpindah.",
+      "home": "Balik rumah",
+      "contact_us": "Hubungi Kami"
+    },
+    "common": {
+      "show_more_btn": "Tunjukkan Lagi",
+      "extra_cashback_rule": "Peraturan Pulangan Tunai Tambahan",
+      "applicable_stores": "Senarai Kedai Berkenaan",
+      "view_winners": "Lihat Pemenang",
+      "transaction_time": "Dijejaki Di",
+      "store_sales_count": "Nombor transaksi",
+      "store_name": "Nama kedai",
+      "name": "Nama",
+      "email": "E-mel",
+      "cashback_amount": "Jumlah Pulangan Tunai",
+      "no_data_found": "Tiada data dijumpai",
+      "previous": "Sebelumnya",
+      "next": "Seterusnya",
+      "extra_cashback_rule_expire_message": "Pulangan tunai anda telah meningkat sebanyak :BOOSTPERCENT kali ganda .",
+      "expires_at": "Tamat tempoh Pada",
+      "cashback_boost_expires_by": "Peningkatan pulangan tunai tamat tempoh pada:",
+      "booster_deals": "Tawaran penggalak!",
+      "cashback_increased": "Kadar pulangan tunai anda telah dinaikkan sebanyak"
+    },
+    "verify_phone": {
+      "title": "Anda telah log keluar, kembali segera! sdfsdef",
+      "desc": "<strong>Pertama sekali, kami tidak akan menghantar SMS pemasaran atau memberikan nombor anda kepada anda.</stong> Kami mengesahkan nombor telefon bimbit anda supaya kami dapat mengelakkan penipuan. Sebagai contoh, kami mungkin menghubungi anda melalui telefon mudah alih anda jika kami menemui aktiviti yang mencurigakan pada akaun pulangan tunai anda.",
+      "msg": "Jadi jangan risau"
+    },
+    "extension_uninstall": {
+      "submit_success": "Kami kesal melihat anda pergi. Kami berharap suatu hari nanti anda akan kembali dan mencuba lagi. Sehingga itu, berhati-hati!",
+      "msg_placeholder": "Sebut pertanyaan anda secara terperinci supaya kami dapat memahami dan berbalik dengan cepat."
+    }
+  },
+  "user_dashboard": {
+    "search_filter": {
+      "popular": "Popular",
+      "alphabetical": "Mengikut abjad",
+      "cashback": "Pulangan tunai",
+      "search_records": "Cari :COUNT rekod",
+      "search_record_placeholder": "Cari rekod"
+    },
+    "common": {
+      "cashback": "Pulangan tunai",
+      "reward": "Ganjaran",
+      "already_verified": "Sudah Disahkan?",
+      "email_not_verified": "E-mel anda belum disahkan lagi, sila aktifkan",
+      "verify_alert": "Sila sahkan e-mel anda untuk mengakses akaun anda sepenuhnya.",
+      "request_verification": "Minta pengesahan baharu jika e-mel tidak diterima.",
+      "resend_verification_btn": "Menghantar semula e-mel pengesahan",
+      "click_here": "Tekan di sini",
+      "cashback_reward_earning": "Pulangan Tunai & Pendapatan Ganjaran",
+      "month_wise_earning": "Lihat pulangan tunai bulanan dan pendapatan bonus",
+      "shopping_trips": "Perjalanan Membeli-belah",
+      "view_daily_clicks": "Lihat klik harian untuk :DAYS hari terakhir",
+      "up_to": "Sehingga",
+      "flat": "rata",
+      "are_you_sure": "Adakah anda pasti?",
+      "yes": "ya",
+      "no": "Tidak"
+    },
+    "overview": {
+      "total_earned": "Jumlah Perolehan",
+      "available": "Tersedia",
+      "paid": "Dibayar",
+      "pending": "Yang belum selesai"
+    },
+    "payment": {
+      "payments_tab": "Pembayaran",
+      "history_tab": "Sejarah",
+      "amount_validation_alert": "Jumlah hendaklah lebih daripada jumlah minimum yang perlu dibayar",
+      "available_for_payment": "Tersedia Untuk Pembayaran",
+      "payment_mode": "Mod Pembayaran Anda",
+      "minimum_payout": "Bayaran Minimum",
+      "available_payout": "Pembayaran Tersedia",
+      "add_payment_mode": "Tambah Mod Pembayaran Baharu",
+      "not_enough_amount": "Jumlah tidak mencukupi",
+      "cashback": "Pulangan tunai",
+      "reward": "Ganjaran",
+      "request_payout": "Minta Pembayaran",
+      "payout_request_success": "Bayaran diminta berjaya",
+      "payout_request_error": "Permintaan pembayaran gagal! Cuba lagi",
+      "pending_payment": "Permintaan anda sebelum ini sedang dalam proses, sila nyatakan permintaan baharu kemudian.",
+      "not_found": "Permintaan Pembayaran tidak ditemui",
+      "already_verified": "Permintaan telah pun disahkan",
+      "success_verified": "Permintaan Pembayaran berjaya disahkan",
+      "email_sent": "Email Berjaya Dihantar!",
+      "email_request_failed": "Permintaan e-mel gagal",
+      "enter_amount": "Masukkan Jumlah",
+      "enter_valid_amount": "Sila masukkan jumlah yang sah. Nilai perpuluhan tidak diterima",
+      "previous_request_in_process": "Permintaan anda sebelum ini sedang dalam proses, sila nyatakan permintaan baharu kemudian.",
+      "account": "Akaun"
+    },
+    "activities": {
+      "shopping_tab": "Membeli-belah",
+      "referral_tab": "Rujukan",
+      "bonus_tab": "Bonus",
+      "click_tab": "Klik"
+    },
+    "refer_earn": {
+      "invite_friends_reward": "untuk semua transaksi yang dibuat oleh rakan anda.",
+      "copy_link": "Salin pautan",
+      "referral_link_note": "Pautan rujukan unik anda",
+      "invite_by_email": "Jemput melalui E-mel",
+      "email_placeholder": "E-mel",
+      "share_with_social": "Kongsi dengan media sosial",
+      "referral_terms": "Syarat Rujukan",
+      "referral_activities": "Aktiviti Rujukan Anda",
+      "email_error": "Masukkan alamat e-mel yang sah",
+      "see_terms": "Lihat Syarat",
+      "invite_sent": "Jemputan Dihantar",
+      "enter_email_placeholder": "Masukkan email",
+      "invite": "Jemput",
+      "invite_bonus_condition": "(*Bonus akan dijejaki sebagai belum selesai, anda & rakan anda perlu memperoleh pulangan tunai bernilai :MAXCASHBACK dalam masa :REDEEMLIMIT hari selepas menyertai untuk boleh mendapatkan bonus disahkan, jika gagal, ia akan tamat tempoh)",
+      "invite_friends_bonus": "Apabila mana-mana orang menyertai menggunakan pautan rujukan anda, anda akan mendapat",
+      "join_with_refer": "Mana-mana rakan yang menyertai platform kami akan mendapat",
+      "how_refer_earn_works": "Cara Rujuk dan Dapatkan Berfungsi",
+      "eligibility_terms": "Syarat Kelayakan",
+      "eligibility_terms_first": "Bonus rujukan akan disahkan apabila disahkan pulangan tunai bernilai :AMOUNT diperoleh dalam :DAYS hari",
+      "eligibility_terms_second": "Penyertaan bonus akan disahkan apabila disahkan pulangan tunai bernilai :AMOUNT diperoleh dalam :DAYS hari.",
+      "eligibility_terms_third": "Bonus rujukan anda akan disahkan hanya apabila bonus rakan anda yang dirujuk mengesahkan.",
+      "eligibility_terms_fourth": "Status untuk pendapatan rujukan dipautkan terus kepada status transaksi rakan anda.",
+      "referral_reward": "Ganjaran Rujukan",
+      "referral_bonus": "Bonus Rujukan",
+      "joining_bonus": "Bonus Menyertai",
+      "disable_warn": "Rujuk & Dapatkan dilumpuhkan untuk akaun anda, sila hubungi kami untuk mendapatkan maklumat lanjut"
+    },
+    "share_earn": {
+      "create_link": "Buat pautan anda sendiri dan dapatkan wang apabila orang lain membeli-belah",
+      "link_title_note": "Masukkan tajuk yang bermakna supaya rakan anda mengetahui butiran tawaran.",
+      "offer_link_placeholder": "Masukkan pautan tawaran",
+      "offer_title_placeholder": "Masukkan tajuk tawaran",
+      "link_note": "Masukkan pautan yang jelas, tiada rujukan dan pautan tersuai",
+      "create_link_btn": "Buat Pautan",
+      "learn_share_earn": "Belajar Kongsi & Dapatkan",
+      "link_success_msg": "Pautan berjaya dibuat. Salin pautan ini & kongsi",
+      "share_with": "Kongsi Dengan",
+      "validation_error": "Sila isi semua butiran",
+      "offer_title": "Tajuk tawaran",
+      "copy_link": "Salin pautan",
+      "or": "ATAU",
+      "create_new_link": "Buat Pautan Baharu",
+      "offer_title_note": "Masukkan tajuk yang bermakna supaya rakan anda mengetahui butiran tawaran.",
+      "link_error_msg": "Sila masukkan pautan yang sah",
+      "network_error": "Ralat Rangkaian",
+      "copied_link": "Pautan Disalin",
+      "offer_link": "Pautan tawaran",
+      "how_share_earn_works": "Cara Kongsi & Dapatkan Berfungsi",
+      "see_terms": "Lihat syarat",
+      "disable_warn": "Share & Earn dilumpuhkan untuk akaun anda, sila hubungi kami untuk mendapatkan maklumat lanjut"
+    },
+    "account_setting": {
+      "edit_profile": "Sunting profil",
+      "manage_profile": "Urus maklumat profil anda.",
+      "firstname_placeholder": "Masukkan Nama Pertama",
+      "lastname_placeholder": "Masukkan Nama Akhir",
+      "change_password": "Tukar kata laluan",
+      "manage_password": "Urus Kata Laluan",
+      "current_password": "Kata Laluan Semasa",
+      "current_password_placeholder": "Masukkan Kata Laluan Semasa",
+      "new_password": "Kata laluan baharu",
+      "change_password_btn": "Tukar kata laluan",
+      "change_email_note": "Untuk menukar alamat e-mel anda sila hubungi kami.",
+      "resend_btn": "Hantar semula",
+      "confirm_password_validation": "Kata laluan baharu dan sahkan kata laluan tidak sepadan",
+      "form_validation": "Masukkan Semua Nilai",
+      "firstname": "Nama pertama",
+      "lastname": "Nama terakhir",
+      "save_btn": "Jimat",
+      "new_password_placeholder": "Masukkan kata laluan baru",
+      "confirm_password": "Sahkan Kata Laluan",
+      "confirm_password_placeholder": "Masukkan Sahkan Kata Laluan",
+      "email": "E-mel",
+      "email_placeholder": "E-mel",
+      "link_mobile_number": "Pautkan Nombor Mudah Alih",
+      "link_number_note": "Hubungi kami untuk menukar nombor telefon bimbit anda.",
+      "bio_placeholder": "Bio",
+      "bio": "Bio",
+      "birth_date": "Tarikh lahir",
+      "anniversary_date": "Tarikh Ulang Tahun",
+      "gender": "Jantina",
+      "marital_status": "Status perkahwinan",
+      "occupation": "pekerjaan",
+      "occupation_placeholder": "pekerjaan",
+      "address": "Alamat",
+      "address_placeholder": "Alamat",
+      "city": "Bandar",
+      "city_placeholder": "Bandar",
+      "state": "negeri",
+      "state_placeholder": "negeri",
+      "country": "Negara",
+      "pincode": "Kod PIN",
+      "pincode_placeholder": "Kod PIN",
+      "choose_lang": "Pilih Bahasa",
+      "profile_info_updated": "Profil Berjaya Dikemas Kini!",
+      "request_failed_try_again": "Permintaan gagal. Sila cuba lagi!",
+      "lang_updated": "Bahasa Berjaya dikemas kini!",
+      "lang_update_request_failed": "Permintaan Kemas Kini Bahasa Gagal",
+      "password_change_success": "Kata Laluan Berjaya Ditukar!",
+      "change_password_error": "Permintaan tukar kata laluan gagal! Cuba lagi",
+      "activation_link_sent": "Pautan pengaktifan akaun dihantar ke mel anda, Sila semak",
+      "activation_failed": "Pengaktifan akaun gagal",
+      "name_updated": "Nama Berjaya dikemas kini!",
+      "male": "jantan",
+      "female": "perempuan",
+      "other": "Lain-lain",
+      "enter_value_alert": "Sila isi semua ruangan wajib",
+      "married": "dah kahwin",
+      "single": "Bujang",
+      "please_select": "Sila Pilih",
+      "email_verification_note": "E-mel TIDAK disahkan. Menghantar semula e-mel pengesahan.",
+      "wrong_password": "Nilai kata laluan semasa adalah salah",
+      "invalid_lang": "Bahasa tidak sah",
+      "same_password": "Kata laluan semasa dan Kata laluan baharu adalah serupa. Sila pilih kata laluan lain",
+      "account_deleted": "Akaun dipadamkan",
+      "delete_my_account": "Padamkan akaun saya"
+    },
+    "payment_mode": {
+      "validation_error": "Sila isi semua butiran",
+      "name": "Nama",
+      "add": "Tambah",
+      "name_placeholder": "Nama Akaun Peribadi Saya",
+      "payment_mode_success": "Mod pembayaran berjaya ditambahkan!",
+      "payment_mode_error": "Permintaan tambah mod pembayaran gagal",
+      "invalid_mode": "Mod Pembayaran Tidak Sah",
+      "not added": "Kaedah pembayaran tidak ditambahkan",
+      "payment_mode_not_exist": "Mod pembayaran tidak wujud.",
+      "payment_mode_delete_success": "Mod pembayaran berjaya dipadamkan !",
+      "payment_mode_update_error": "Permintaan kemas kini mod pembayaran gagal",
+      "payment_mode_update_success": "Mod pembayaran berjaya dikemas kini!"
+    },
+    "favorites": {
+      "no_favorite_found": "Tiada kedai kegemaran ditemui!",
+      "loading": "memuatkan...",
+      "cashback": "Pulangan tunai",
+      "shop_now": "Berbelanjalah sekarang"
+    },
+    "claim": {
+      "validation_error": "Sila isi semua butiran",
+      "create_claim": "Buat Tuntutan",
+      "create_claim_btn": "Buat Tuntutan",
+      "store": "Kedai",
+      "shopping_trip": "Lawatan Membeli-belah",
+      "ordering_platform": "Platform Pesanan",
+      "order_id": "ID Pesanan",
+      "currency": "mata wang",
+      "amount_placeholder": "Jumlah",
+      "date": "Atribut : bukan tarikh yang sah.",
+      "additional_information": "Maklumat tambahan",
+      "submit_btn": "Hantar",
+      "note": "Kami tidak akan menyiarkan apa-apa tanpa kebenaran anda",
+      "create_claim_success": "Tuntutan berjaya dibuat!",
+      "claim_request_failed": "Permintaan tuntutan gagal! Cuba lagi",
+      "no_claims": "Tiada Tuntutan ditemui!",
+      "purchase_date": "Tarikh Pembelian",
+      "website": "laman web",
+      "mobile": "Mudah alih",
+      "ios": "iOS",
+      "android": "Android",
+      "ordering_id": "ID pesanan",
+      "closed": "Tuntutan ditutup",
+      "receipt": "resit",
+      "max_size_note": "Saiz fail maksimum dibenarkan :MAXSIZE . Format yang diterima- jpeg,jpg,png,pdf",
+      "no_click_note": "Tiada perjalanan membeli-belah ditemui dalam beberapa hari lepas untuk melaporkan tuntutan yang hilang, sila semak kemudian",
+      "show": "Tunjukkan"
+    },
+    "nav_menu": {
+      "welcome": "Selamat datang!",
+      "joined_on": "Menyertai Pada"
+    },
+    "pagination": {
+      "show": "Tunjukkan",
+      "page": "Halaman"
+    }
+  },
+  "table": {
+    "shopping": {
+      "no_data": "Tiada data dijumpai",
+      "click_id": "klik",
+      "date": "Atribut : bukan tarikh yang sah.",
+      "store": "Kedai",
+      "order_amount": "Jumlah Pesanan",
+      "cashback_amount": "Jumlah Pulangan Tunai",
+      "status": "Status",
+      "transaction_time": "Dijejaki Di",
+      "confirmed_by": "Disahkan oleh:",
+      "confirmed": "Disahkan",
+      "pending": "Yang belum selesai",
+      "declined": "ditolak",
+      "reward": "Ganjaran",
+      "cashback": "Pulangan tunai"
+    },
+    "referral": {
+      "date": "Atribut : bukan tarikh yang sah.",
+      "transaction_by": "Transaksi Oleh",
+      "store": "Kedai",
+      "amount": "Jumlah",
+      "status": "Status",
+      "no_data": "Tiada data dijumpai",
+      "order_amount": "Jumlah Pesanan",
+      "referral_amount": "Jumlah rujukan",
+      "pending": "Yang belum selesai",
+      "confirmed": "Disahkan",
+      "declined": "ditolak",
+      "joined": "Menyertai",
+      "invited": "dijemput"
+    },
+    "bonus": {
+      "status": "Status",
+      "date": "Atribut : bukan tarikh yang sah.",
+      "type": "taip",
+      "amount": "Jumlah",
+      "no_data": "Tiada data dijumpai",
+      "expires_on": "Luput pada",
+      "pending": "Yang belum selesai",
+      "confirmed": "Disahkan",
+      "declined": "ditolak"
+    },
+    "click": {
+      "trip_date": "Tarikh Perjalanan",
+      "click_id": "klik",
+      "store": "Kedai",
+      "cashback": "Pulangan tunai",
+      "status": "Status",
+      "no_data": "Tiada data dijumpai",
+      "tracked": "Dijejaki",
+      "clicked": "Diklik",
+      "network_campaign_id": "ID Kempen"
+    },
+    "claim": {
+      "claim_date": "Tarikh Tuntutan",
+      "shopping_trip_date": "Tarikh Perjalanan Membeli-belah",
+      "status": "Status",
+      "store": "Kedai",
+      "order_id": "ID Pesanan",
+      "order_amount": "Jumlah Pesanan",
+      "created": "Dicipta",
+      "completed": "Selesai",
+      "processing": "Memproses",
+      "declined": "ditolak",
+      "open": "Buka",
+      "hold": "tahan",
+      "answered": "Dijawab",
+      "closed": "Tuntutan ditutup",
+      "claim_id": "Tuntutan ID",
+      "network_campaign_id": "ID Kempen"
+    },
+    "refer_earn": {
+      "invited_date": "Tarikh Dijemput",
+      "email": "E-mel",
+      "joining_date": "Tarikh Menyertai",
+      "name": "Nama",
+      "earning": "Pendapatan"
+    },
+    "share_earn": {
+      "created": "Dicipta",
+      "offer_link": "Pautan tawaran",
+      "store": "Kedai",
+      "cashback": "Pulangan tunai",
+      "earnings": "Pendapatan",
+      "clicks": "Klik"
+    },
+    "payment_history": {
+      "date": "Atribut : bukan tarikh yang sah.",
+      "withdrawal_id": "Id Pengeluaran",
+      "account_type": "Jenis Akaun",
+      "payment_account": "akaun pembayaran",
+      "amount": "Jumlah",
+      "status": "Status",
+      "resend_email": "Menghantar semula e-mel",
+      "pending_verification": "Menunggu pengesahan e-mel"
+    },
+    "general": {
+      "no_data": "Tiada data dijumpai"
+    },
+    "cashback": {
+      "pending": "Yang belum selesai",
+      "confirmed": "Disahkan",
+      "declined": "ditolak"
+    },
+    "payment": {
+      "created": "Dicipta",
+      "processing": "Memproses",
+      "completed": "Selesai",
+      "declined": "ditolak",
+      "pending": "Yang belum selesai",
+      "confirmed": "Disahkan"
+    }
+  },
+  "common": {
+    "header_search": {
+      "search_placehoder": "Kedai Carian"
+    },
+    "scroll_up": {
+      "top": "Atas"
+    },
+    "search_filter": {
+      "cashback": "Pulangan tunai",
+      "popular": "Popular",
+      "alphabetical": "Mengikut abjad",
+      "store_with_cashback": "Tunjukkan Kedai Dengan Pulangan Tunai",
+      "search_cat": "Cari kategori",
+      "search_stores": "Cari kedai",
+      "filter_btn": "Penapis"
+    },
+    "breadcrumb": {
+      "home": "Rumah",
+      "all_stores": "Semua Kedai",
+      "all_deals": "Semua Tawaran",
+      "all_coupon_categories": "Semua Kategori Kupon",
+      "all_store_categories": "Semua Kategori Kedai",
+      "daily_deals": "Tawaran harian",
+      "all_deal_categories": "Semua Kategori Tawaran",
+      "extra_cashback_rules": "Peraturan Pulangan Tunai Tambahan"
+    },
+    "general": {
+      "best_offer": "Tawaran terbaik",
+      "see_more": "Lihat lagi",
+      "see_less": "Lihat Kurang",
+      "view_more_deals": "Lihat Lagi : Tawaran KATEGORI",
+      "yes": "ya",
+      "no": "tidak",
+      "get_code_btn": "Dapatkan kod",
+      "view_more_store": "Lihat Lagi :CATEGORY Stores",
+      "view_more_coupons": "Lihat Lagi :Kupon KATEGORI",
+      "copy_code_tooltip": "Salin kod & lawati pedagang",
+      "get_discount": "Dapatkan Diskaun",
+      "show_more": "Tunjukkan Lagi",
+      "shop_now_btn": "Berbelanjalah sekarang",
+      "see_more_cashback": "Lihat Lagi Pulangan Tunai",
+      "android": "Android",
+      "apple": "epal",
+      "chrome": "Chrome",
+      "firefox": "Firefox",
+      "safari": "Safari",
+      "no_stores": "Tiada Kedai , sila semak semula kemudian",
+      "edge": "Hujung"
+    },
+    "store_cashback": {
+      "was_cashback_string": "Was :CASHBACK",
+      "upto": "Sehingga",
+      "flat": "rata"
+    },
+    "cta": {
+      "join_now": "Sertai sekarang",
+      "existing_user": "Pengguna Sedia Ada",
+      "login": "Log masuk",
+      "already_register": "Sudah mendaftar?"
+    },
+    "mobile_menu": {
+      "logout": "Log keluar",
+      "language": "Bahasa",
+      "my_account": "Akaun saya",
+      "signin": "Log Masuk",
+      "join_us": "Sertai kami"
+    },
+    "error": {
+      "general": "Kesilapan telah berlaku, cuba lagi kemudian"
+    },
+    "desktop_menu": {
+      "signin": "Log Masuk",
+      "join_us": "Sertai kami"
+    }
+  },
+  "custom_validation": {
+    "attribute-name": {
+      "rule-name": "nama peraturan"
+    },
+    "g-recaptcha-response": {
+      "required": "Medan :atribut diperlukan."
+    },
+    "general": {
+      "captcha": "Ralat Captcha! Cuba lagi kemudian atau hubungi pentadbir tapak."
+    }
+  },
+  "validation": {
+    "general": {
+      "accepted": "Atribut : mesti diterima.",
+      "active_url": "Atribut : bukan URL yang sah.",
+      "after": ":atribut mestilah tarikh selepas :tarikh.",
+      "after_or_equal": ":atribut mestilah tarikh selepas atau sama dengan :tarikh.",
+      "alpha": "Atribut : hanya boleh mengandungi huruf.",
+      "alpha_dash": "Atribut : hanya boleh mengandungi huruf, nombor, sempang dan garis bawah.",
+      "alpha_num": "Atribut : hanya boleh mengandungi huruf dan nombor.",
+      "array": "The :attribute mestilah array.",
+      "before": ":atribut mestilah tarikh sebelum :tarikh.",
+      "before_or_equal": ":atribut mestilah tarikh sebelum atau sama dengan :tarikh.",
+      "boolean": "Medan :attribute mestilah benar atau salah.",
+      "confirmed": "Disahkan",
+      "date": "Atribut : bukan tarikh yang sah.",
+      "date_equals": ":atribut mestilah tarikh bersamaan dengan :tarikh.",
+      "date_format": "Atribut : tidak sepadan dengan format :format.",
+      "different": ":atribut dan :lain mestilah berbeza.",
+      "digits": ":atribut mestilah :digit.",
+      "digits_between": ":attribut mestilah antara :min dan :max digit.",
+      "dimensions": "Atribut : mempunyai dimensi imej yang tidak sah.",
+      "distinct": "Medan :attribute mempunyai nilai pendua.",
+      "email": "E-mel",
+      "ends_with": ":atribut mesti berakhir dengan salah satu daripada yang berikut: :nilai.",
+      "exists": ":atribut yang dipilih tidak sah.",
+      "file": "Medan :attribute mempunyai nilai pendua.",
+      "filled": "Medan :attribute mesti mempunyai nilai.",
+      "image": "Atribut : mestilah imej.",
+      "in": ":atribut yang dipilih tidak sah.",
+      "in-array": "Medan :attribute tidak wujud dalam :lain.",
+      "integer": ":atribut mestilah integer.",
+      "ip": ":atribut mestilah alamat IP yang sah.",
+      "ipv4": ":atribut mestilah alamat IPv4 yang sah.",
+      "ipv6": ":atribut mestilah alamat IPv6 yang sah.",
+      "json": ":attribute mestilah rentetan JSON yang sah.",
+      "mimes": ":attribute mestilah fail jenis: :values.",
+      "mimetypes": ":attribute mestilah fail jenis: :values.",
+      "not_in": ":atribut yang dipilih tidak sah.",
+      "not_regex": "Format :attribute tidak sah.",
+      "numeric": "Atribut : mestilah nombor.",
+      "password": "Kata laluan tidak betul.",
+      "present": "Medan :atribut mesti ada.",
+      "regex": "Format :attribute tidak sah.",
+      "required": "Medan :atribut diperlukan.",
+      "required_if": "Medan :attribute diperlukan apabila :other ialah :value.",
+      "required_unless": "Medan :attribute diperlukan melainkan :other berada dalam :values.",
+      "required_with": "Medan :attribute diperlukan apabila :values ​​hadir.",
+      "required_with_all": "Medan :attribute diperlukan apabila :values ​​hadir.",
+      "required_without": "Medan :attribute diperlukan apabila :values ​​tidak ada.",
+      "required_without_all": "Medan :attribute diperlukan apabila tiada satu pun daripada :values ​​hadir.",
+      "same": ":atribut dan :lain mesti sepadan.",
+      "string": "Atribut : mestilah rentetan.",
+      "timezone": "Atribut : mestilah zon yang sah.",
+      "unique": "Atribut : telah pun diambil.",
+      "uploaded": "Atribut : gagal dimuat naik.",
+      "url": "Format :attribute tidak sah.",
+      "uuid": "Atribut : mestilah UUID yang sah.",
+      "email_not_exist": "E-mel tidak wujud",
+      "not_registerd_using_email": "Anda tidak boleh menetapkan semula kata laluan kerana anda belum mendaftar menggunakan E-mel",
+      "phone_number_exist": "Nombor telefon sudah wujud"
+    },
+    "between": {
+      "numeric": ":atribut mestilah antara :min dan :maks.",
+      "file": ":attribut mestilah antara :min dan :max kilobait.",
+      "string": ":atribut mestilah antara :min dan :maks aksara.",
+      "array": ":attribut hendaklah antara :min dan :maks item."
+    },
+    "gt": {
+      "numeric": ":atribut mestilah lebih besar daripada :nilai.",
+      "file": ":attribute mestilah lebih besar daripada :value kilobait.",
+      "string": ":attribute mestilah lebih besar daripada :value characters.",
+      "array": ":atribut mesti mempunyai lebih daripada :item nilai"
+    },
+    "gte": {
+      "numeric": ":atribut mestilah lebih besar daripada atau sama dengan :nilai.",
+      "file": ":attribute mestilah lebih besar daripada atau sama dengan :value kilobait.",
+      "string": ":atribut mestilah lebih besar daripada atau sama dengan aksara :value.",
+      "array": ":atribut mesti mempunyai :item nilai atau lebih."
+    },
+    "lt": {
+      "numeric": ":atribut mestilah kurang daripada :nilai.",
+      "file": ":atribut mestilah kurang daripada :nilai kilobait.",
+      "string": ":atribut mestilah kurang daripada aksara :value.",
+      "array": ":atribut mesti mempunyai kurang daripada :item nilai."
+    },
+    "lte": {
+      "numeric": ":atribut mestilah kurang daripada atau sama dengan :nilai.",
+      "file": ":attribute mestilah kurang daripada atau sama dengan :value kilobait.",
+      "string": ":atribut mestilah kurang daripada atau sama dengan aksara :value.",
+      "array": ":atribut tidak boleh mempunyai lebih daripada :item nilai."
+    },
+    "max": {
+      "numeric": ":atribut tidak boleh lebih besar daripada :maks.",
+      "file": ":attribute tidak boleh lebih besar daripada :max kilobait.",
+      "string": ":attribute tidak boleh lebih besar daripada :maks aksara.",
+      "array": ":attribute mungkin tidak mempunyai lebih daripada :maks item."
+    },
+    "min": {
+      "numeric": ":atribut mestilah sekurang-kurangnya :min.",
+      "file": ":atribut mestilah sekurang-kurangnya :min kilobait.",
+      "string": ":atribut mestilah sekurang-kurangnya :min aksara.",
+      "array": ":atribut mesti mempunyai sekurang-kurangnya :min item."
+    },
+    "size": {
+      "numeric": ":atribut mestilah :saiz.",
+      "file": ":atribut mestilah :saiz kilobait.",
+      "string": ":atribut mestilah :saiz aksara.",
+      "array": ":atribut mesti mengandungi item saiz."
+    },
+    "attributes": {
+      "email": "E-mel",
+      "g-recaptcha-response": "g-recaptcha-response",
+      "privacy policy": "Politica de confidentialite",
+      "referrer_code": "Kod Perujuk",
+      "password": "Kata laluan",
+      "phone": "telefon",
+      "store_id": "Kedai",
+      "click_id": "klik",
+      "platform": "Platform",
+      "order_amount": "Jumlah Pesanan",
+      "currency": "mata wang",
+      "transaction_date": "tarikh transaksi",
+      "user_message": "Mesej Pengguna",
+      "comment": "Komen",
+      "mode": "Mod",
+      "method_name": "Nama Kaedah",
+      "account": "Akaun",
+      "pay_mode": "Mod Pembayaran",
+      "payment_amount": "Jumlah pembayaran",
+      "old_password": "Kata laluan lama",
+      "new_password": "Kata laluan baharu",
+      "repeat_password": "Ulang kata laluan",
+      "name": "Nama",
+      "message": "Mesej",
+      "reason": "Sebab",
+      "first_name": "Nama pertama",
+      "last_name": "Nama terakhir",
+      "otp": "OTP",
+      "phone_number": "Nombor telefon",
+      "order_id": "ID Pesanan"
+    }
+  },
+  "app": {
+    "auth": {
+      "email_sent": "E-mel telah dihantar"
+    }
+  },
+  "mail": {
+    "extention": {
+      "install_extension": "Pasang : Sambungan Penyemak Imbas APPNAME",
+      "never_miss_cashback": "Jangan Terlepas untuk Mendapat Pulangan Tunai Tambahan!"
+    },
+    "app": {
+      "access_from_smartphone": "Sekarang akses :APPNAME daripada Telefon Pintar anda!"
+    },
+    "social": {
+      "get_social": "Jom bersosial!"
+    },
+    "footer": {
+      "note": "Kami tidak akan menyiarkan apa-apa tanpa kebenaran anda"
+    }
+  }
+}

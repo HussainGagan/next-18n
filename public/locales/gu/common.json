@@ -1,0 +1,903 @@
+{
+  "auth": {
+    "form": {
+      "email_placeholder": "ઈમેલ",
+      "password_placeholder": "પાસવર્ડ દાખલ કરો",
+      "existing_user": "હાલના વપરાશકર્તા",
+      "note": "અમે તમારી પરવાનગી વિના ક્યારેય કંઈપણ પોસ્ટ કરીશું નહીં",
+      "terms_apply": "જોડાવા અને રેફરલ બોનસ શરતો લાગુ*",
+      "remember_me": "મને યાદ",
+      "reset_password": "તમારો પાસવર્ડ રીસેટ કરો",
+      "email_valid_msg": "સારું દેખાય છે!",
+      "forgot_password_link": "પાસવર્ડ ભૂલી ગયા છો?",
+      "forgot_password_note": "તમારું ઇમેઇલ સરનામું દાખલ કરો અને અમે તમને તમારો પાસવર્ડ રીસેટ કરવા માટે સૂચનાઓ મોકલીશું",
+      "time_left": "બાકી સમય =",
+      "not_member": "સભ્ય નથી",
+      "sign_up_get": "સાઇન અપ કરો અને મેળવો",
+      "today": "આજે",
+      "social_media_signup": "સ્વાગત છે! તમે #1 કેશબેક વેબસાઇટમાં જોડાવાથી માત્ર એક ક્લિક દૂર છો.",
+      "someone_refer_you": "શું કોઈએ તમારો ઉલ્લેખ કર્યો છે?",
+      "enter_otp": "OTP દાખલ કરો",
+      "social_media_email_validation": "વેરિફિકેશન લિંક મેળવવા માટે માન્ય ઈમેલ દાખલ કરો",
+      "agree_policy": "હું <a href=':PRIVACY' class='text-purple' target='_blank'> ગોપનીયતા નીતિ</a> અને <a href=':TERMS' class='text-purple' target='_blank સાથે સંમત છું '>ઉપયોગની શરતો</a>",
+      "forgot_password": "પાસવર્ડ ભૂલી ગયા છો!",
+      "signin": "સાઇન ઇન કરો",
+      "send_reset_link": "પાસવર્ડ રીસેટ લિંક મોકલો",
+      "signin_with_facebook": "Facebook સાથે સાઇન ઇન કરો",
+      "signin_with_google": "Google સાથે સાઇન ઇન કરો",
+      "signin_with_apple": "Apple સાથે સાઇન ઇન કરો",
+      "enter_mobile_number": "કૃપા કરીને તમારો મોબાઈલ નંબર દાખલ કરો",
+      "request_otp": "OTP માટે વિનંતી કરો",
+      "resend_otp": "OTP ફરીથી મોકલો",
+      "verify_now": "હવે ચકાસો",
+      "referral_code_placeholder": "રેફરલ કોડ (વૈકલ્પિક)",
+      "email_placeholder_2": null,
+      "email_placeholder_test_2": null,
+      "email_placeholder_test_3": null,
+      "email_placeholder_6": null
+    },
+    "button": {
+      "change_password": "પાસવર્ડ બદલો",
+      "signin": "સાઇન ઇન કરો",
+      "join_now": "હવે જોડાઓ",
+      "logout": "લૉગ આઉટ"
+    },
+    "general": {
+      "failed": "આ ઓળખપત્રો અમારા રેકોર્ડ સાથે મેળ ખાતા નથી.",
+      "throttle": "ઘણા બધા લોગિન પ્રયાસો. કૃપા કરીને થોડીવારમાં ફરી પ્રયાસ કરો.",
+      "invalid_signature": "અમાન્ય હસ્તાક્ષર",
+      "maintenance_mode": "અમે જાળવણી માટે નીચે છીએ",
+      "maintenance_mode_desc": "આ વેબસાઇટની જાળવણી ચાલી રહી છે અને અમે ટૂંક સમયમાં લાઇવ થઈશું. તમારી ધીરજની કદર કરો!",
+      "maintenance_mode_meta_title": "જાળવણી હેઠળ વેબસાઇટ"
+    },
+    "toast": {
+      "login_success": "તમે સફળતાપૂર્વક લૉગ ઇન થયા છો",
+      "logout_success": "તમે લૉગ આઉટ થયા છો, જલ્દી પાછા આવો!",
+      "verify_info": "તમારું એકાઉન્ટ પહેલેથી જ ચકાસાયેલ છે.",
+      "verify_success": "તમે સફળતાપૂર્વક તમારા ઇમેઇલની ચકાસણી કરી લીધી છે, હવે તમારા એકાઉન્ટમાંથી પ્રતિબંધ દૂર કરવામાં આવ્યો છે",
+      "register_success": "સાઇન અપ કરવા બદલ આભાર. કૃપા કરીને તમારા ઇમેઇલ પર પ્રાપ્ત લિંક પર ક્લિક કરીને તમારા ઇમેઇલ અને મોબાઇલ નંબરને ચકાસો.",
+      "reset_password_success": "તમારો પાસવર્ડ સફળતાપૂર્વક રીસેટ કરવામાં આવ્યો છે.",
+      "login_to_proceed": "આગળ વધવા માટે તમારે લૉગ ઇન કરવાની જરૂર છે"
+    },
+    "ajax": {
+      "login_success": "તમે સફળતાપૂર્વક લૉગ ઇન થયા છો",
+      "login_error": "ઈમેલ અને/અથવા પાસવર્ડ અમાન્ય.",
+      "otp_sent": "OTP મોકલ્યો",
+      "otp_send_error": "OTP મોકલવામાં અસમર્થ, પછીથી ફરી પ્રયાસ કરો",
+      "otp_error": "કંઈક ખોટું થયું",
+      "otp_validation": "ફોન નંબર અને OTP જરૂરી છે",
+      "otp_verify_success": "ચકાસણી",
+      "otp_verify_error": "OTP મેળ ખાતો નથી, કૃપા કરીને તપાસો અને ફરી પ્રયાસ કરો",
+      "register_success": "સાઇન અપ કરવા બદલ આભાર. કૃપા કરીને તમારા ઇમેઇલ પર પ્રાપ્ત લિંક પર ક્લિક કરીને તમારા ઇમેઇલ અને મોબાઇલ નંબરને ચકાસો.",
+      "forgot_password_success": "પાસવર્ડ લિંક ઈમેઈલ પર મોકલી.",
+      "social_media_login_error": "કંઈક ખોટું થયું!",
+      "unable_to_create_account": "એકાઉન્ટ બનાવવામાં અસમર્થ",
+      "password_updated": "પાસવર્ડ અપડેટ કર્યો",
+      "otp_invalid": "OTP અમાન્ય છે",
+      "user_not_exist": "વપરાશકર્તા અસ્તિત્વમાં નથી",
+      "user_logged_out": "વપરાશકર્તા લૉગ આઉટ થયો",
+      "cross_user_request": "ક્રોસ યુઝર રિક્વેસ્ટ અથવા યુઝર લૉગ આઉટ થયા en",
+      "invalid_session": "અમાન્ય સત્ર",
+      "invalid_token": "અમાન્ય ટોકન",
+      "user_banned": "આ વપરાશકર્તા પ્રતિબંધિત છે",
+      "invalid_credentials": "પ્રદાન કરેલ ઓળખપત્રો ખોટા છે."
+    },
+    "verify": {
+      "title": "તમે લૉગ આઉટ થયા છો, જલ્દી પાછા આવો!"
+    }
+  },
+  "public": {
+    "404": {
+      "title": "તમે લૉગ આઉટ થયા છો, જલ્દી પાછા આવો!",
+      "subtitle": "પેજ નથી મળ્યું",
+      "home": "ઘર",
+      "contact_us": "અમારો સંપર્ક કરો"
+    },
+    "refer_earn": {
+      "invite_now_btn": "હમણાં આમંત્રિત કરો",
+      "invite_friends_btn": "મિત્રોને આમંત્રિત કરો",
+      "invite_sent": "આમંત્રણ મોકલ્યું",
+      "invite_request_error": "આમંત્રણ વિનંતી નિષ્ફળ"
+    },
+    "share_earn": {
+      "share_now_btn": "હવે શેર કરો"
+    },
+    "out_page": {
+      "skip_cashback": "છોડો",
+      "your_order_at": "<span> <span>:store</span> પર તમારા ઓર્ડર પર ડિસ્કાઉન્ટનો આનંદ માણો",
+      "sign_up_note": "મફત માટે સાઇન અપ કરો",
+      "click_here": "અહીં ક્લિક કરો",
+      "taking_long_note": "લોડ કરવામાં ખૂબ લાંબો સમય લાગી રહ્યો છે? કૃપા કરીને <a class='active pointer' onclick=':LINK' >અહીં ક્લિક કરો</a>",
+      "your_trip_id": "સંદર્ભ ID: <strong>:CLKCODE</strong>",
+      "discount_on_order": "પર તમારા ઓર્ડર પર ડિસ્કાઉન્ટનો આનંદ લો",
+      "activated_discount": ":STORE પર તમારા ઓર્ડર પર સક્રિય",
+      "redirecting_msg": "તમને <span>:STORE</span> પર રીડાયરેક્ટ કરવામાં આવી રહ્યાં છે...",
+      "shop_now_btn": "હવે ખરીદી કરો",
+      "guest_order_at": "<span>:STORE</span> પર તમારા ઓર્ડર પર",
+      "adblocker_alert": "તમારું એડ બ્લોકર તમને કમાણી કરતા અટકાવી રહ્યું છે",
+      "track_order_note": "તમે કેશબેક માટે ક્યારે પાત્ર છો તે જાણવા માટે અમારે તમારા ક્લિક્સને ટ્રૅક કરવાની જરૂર છે.",
+      "whitelist_adblocker": "એડબ્લૉકરને વ્હાઇટલિસ્ટ કરવાનું શીખો",
+      "adblocker_shop_now": "થઈ ગયું! હવે ખરીદી કરો"
+    },
+    "search_page": {
+      "search_result": "મેળ ખાતા પરિણામો - :KEYWORD",
+      "no_result": "કોઈ મેળ ખાતું શોધ પરિણામ મળ્યું નથી",
+      "stores": "સ્ટોર્સ",
+      "deals": "ડીલ્સ",
+      "coupon": "કૂપન",
+      "store_categories": "સ્ટોર શ્રેણીઓ",
+      "coupon_categories": "કૂપન શ્રેણીઓ",
+      "deal_categories": "ડીલ શ્રેણીઓ",
+      "server_error": "આંતરિક સર્વર ભૂલ. અમે તેને જલદીથી ઠીક કરી રહ્યા છીએ"
+    },
+    "store": {
+      "shop_with_cashback": "CASHBACK સાથે ખરીદી કરો",
+      "show_more_cashback": "વધુ દરો બતાવો",
+      "show_less": "ઓછું બતાવો",
+      "store_categories": "સ્ટોર શ્રેણીઓ",
+      "how_it_works": "તે કેવી રીતે કામ કરે છે",
+      "view_all_offers": "બધા જુઓ :સ્ટોર ઑફર્સ",
+      "coupon_count": "કૂપન્સ",
+      "terms_condition": "શરતો અને નિયમો",
+      "terms_dos_title": "તમારું કેશબેક સફળ છે તેની ખાતરી કરવા માટે:",
+      "terms_donts_title": "તે આ માટે લાયક નથી:",
+      "shopping_tips": "શોપિંગ ટિપ્સ",
+      "similar_stores": "સમાન સ્ટોર્સ",
+      "view_all_stores": "બધા સ્ટોર્સ જુઓ",
+      "tracked_within": "અંદર ટ્રેક",
+      "confirmed_by": "દ્વારા પુષ્ટિ થયેલ:",
+      "missing_cashback_claim": "ગુમ થયેલ કેશબેક દાવો મંજૂર",
+      "see_more_cashback": "વધુ દરો જુઓ",
+      "shop_now_btn": "હવે ખરીદી કરો",
+      "offers_count": ":COUNT ઑફર્સ",
+      "explore_map_view": "નકશા દૃશ્યનું અન્વેષણ કરો"
+    },
+    "home": {
+      "offer_of_day": "દિવસની ઑફર"
+    },
+    "faq": {
+      "still_question": "હજુ પણ પ્રશ્ન",
+      "select_topic": "વિષય પસંદ કરો",
+      "contact_us": "અમારો સંપર્ક કરો અને અમે ખાતરી કરીશું કે તમારા પ્રશ્નનો જવાબ આપવામાં આવ્યો છે."
+    },
+    "sitemap": {
+      "deal_categories": "ડીલ શ્રેણીઓ",
+      "coupon_categories": "કૂપન શ્રેણીઓ",
+      "store_categories": "સ્ટોર શ્રેણીઓ",
+      "all_pages": "બધા પૃષ્ઠો",
+      "stores": "સ્ટોર્સ"
+    },
+    "contact_us": {
+      "name_placeholder": "નામ",
+      "email_placeholder": "ઈમેલ",
+      "msg_placeholder": "વિગતોમાં તમારી ક્વેરીનો ઉલ્લેખ કરો જેથી અમે સમજી શકીએ અને ઝડપથી પાછા આવી શકીએ.",
+      "subject_placeholder": "વિષય/હેતુ પસંદ કરો",
+      "submit_btn": "સબમિટ કરો",
+      "submit_success": "અમારો સંપર્ક કરવા બદલ આભાર, અમે શક્ય તેટલી વહેલી તકે તમારો સંપર્ક કરીશું",
+      "cashback_reward": "કેશબેક અને પુરસ્કાર",
+      "my_account": "મારું ખાતું",
+      "refund": "પરત કરેલી રકમ"
+    },
+    "deal": {
+      "shop_now_btn": "હવે ખરીદી કરો",
+      "valid_until": "તારીખ સુધી માન્ય",
+      "product_detail": "ઉત્પાદનની વિગતો",
+      "similar_deals": "સમાન સોદા",
+      "view_all_deals": "બધા જુઓ :સ્ટોર ડીલ્સ",
+      "no_deals": "કોઈ ડીલ્સ ઉપલબ્ધ નથી",
+      "load_more": "વધુ બતાવો...",
+      "view_deals": "બધા સોદા જુઓ",
+      "deals_from_stores": ":STORE સ્ટોર્સ",
+      "deals_from_categories": ":CATEGORY શ્રેણીઓ",
+      "deals_from": "થી ડીલ્સ",
+      "and": "અને"
+    },
+    "hiw": {
+      "no_video_suuport": "તમારું બ્રાઉઝર વિડિયો ટેગને સપોર્ટ કરતું નથી."
+    },
+    "hiw_app": {
+      "its_free": "આ મફત છે",
+      "add_to": "આમાં ઉમેરો: પ્લેટફોર્મ",
+      "learn_more_btn": "વધુ શીખો"
+    },
+    "testimonial": {
+      "carousel_previous": "અગાઉના"
+    },
+    "promo_offer": {
+      "avail_offer": "ઓફરનો લાભ કેવી રીતે મેળવવો",
+      "offer_terms": "ઓફર નિયમો અને શરતો",
+      "offer_expired": "ઑફર સમાપ્ત થઈ ગઈ છે!",
+      "enter_number_placeholder": "તમારો ફોન નંબર દાખલ કરો",
+      "valid_msg": "સારું દેખાય છે!",
+      "your_referral_link": "તમારી રેફરલ લિંક",
+      "share_link_to_earn": "આ રેફરલ લિંક શેર કરો અને રેફરલ રોકડ કમાઓ.",
+      "copy_link": "લિંક કૉપિ કરો",
+      "generate_new_link": "નવી લિંક બનાવો",
+      "your_phone_number": "તમારો ફોન નંબર",
+      "submit": "સબમિટ કરો",
+      "select_offer": "ઓફર પસંદ કરો"
+    },
+    "seo": {
+      "redirect_title": "તમને :STORE પર રીડાયરેક્ટ કરવામાં આવી રહ્યાં છે",
+      "search_result_title": "માટે શોધ પરિણામો :KEYWORD",
+      "verify_account": "તમારું એકાઉન્ટ ચકાસો"
+    },
+    "header": {
+      "sign_in": "સાઇન ઇન કરો",
+      "join_us": "અમારી સાથ જોડાઓ",
+      "signin": "સાઇન ઇન કરો"
+    },
+    "coupon": {
+      "shop_now_btn": "હવે ખરીદી કરો",
+      "load_more": "વધુ બતાવો...",
+      "no_offers": "કોઈ ઑફર્સ ઉપલબ્ધ નથી",
+      "exp": "એક્સપ",
+      "coupons_from": "તરફથી કૂપન્સ",
+      "ongoing": "ચાલુ છે"
+    },
+    "filter": {
+      "enter_price_range": "કિંમત શ્રેણી દાખલ કરો",
+      "apply_btn": "અરજી કરો",
+      "latest": "નવીનતમ",
+      "popular": "પ્રખ્યાત",
+      "expiry": "સમાપ્તિ",
+      "price_low_to_high": "કિંમત (ઓછીથી ઊંચી)",
+      "price_high_to_low": "કિંમત (ઉચ્ચથી નીચી)",
+      "all": "બધા",
+      "coupons": "કૂપન્સ",
+      "offers": "ઓફર કરે છે",
+      "filter": "ફિલ્ટર કરો",
+      "category_filter": "શ્રેણી",
+      "store_filter": "દુકાન",
+      "price_filter": "કિંમત ફિલ્ટર",
+      "max_amount_alert": "મહત્તમ રકમ :PRICE કરતાં વધી શકતી નથી",
+      "to": "પ્રતિ",
+      "search_cat_placeholder": "શોધો",
+      "sort_by": "દ્વારા સૉર્ટ કરો"
+    },
+    "newsletter": {
+      "error": "એવું લાગે છે કે તમે પહેલેથી જ સબ્સ્ક્રાઇબ કર્યું છે, જો નહીં, તો કૃપા કરીને પછીથી ફરી પ્રયાસ કરો",
+      "success": "સફળતાપૂર્વક સબ્સ્ક્રાઇબ કર્યું",
+      "enter_email": "ઈમેલ દાખલ કરો",
+      "submit_btn": "સબમિટ કરો"
+    },
+    "error": {
+      "title": "તમે લૉગ આઉટ થયા છો, જલ્દી પાછા આવો!",
+      "subtitle": "તમે ક્લિક કરેલી લિંક તૂટેલી હોઈ શકે છે અથવા પૃષ્ઠ ખસેડ્યું હોઈ શકે છે.",
+      "home": "ઘર જાઓ",
+      "contact_us": "અમારો સંપર્ક કરો"
+    },
+    "common": {
+      "show_more_btn": "વધારે બતાવ",
+      "extra_cashback_rule": "વધારાના કેશબેક નિયમો",
+      "applicable_stores": "લાગુ સ્ટોર સૂચિ",
+      "view_winners": "વિજેતાઓ જુઓ",
+      "transaction_time": "પર ટ્રેક કરેલ",
+      "store_sales_count": "વ્યવહાર નંબર",
+      "store_name": "સ્ટોરનું નામ",
+      "name": "નામ",
+      "email": "ઈમેલ",
+      "cashback_amount": "કેશબેક રકમ",
+      "no_data_found": "કોઈ ડેટા મળ્યો નથી",
+      "previous": "અગાઉના",
+      "next": "આગળ",
+      "extra_cashback_rule_expire_message": "તમારા કેશબેકમાં :BOOSTPERCENT ગણો વધારો કરવામાં આવ્યો છે.",
+      "expires_at": "મુ",
+      "cashback_boost_expires_by": "કેશબેક બૂસ્ટ આના સુધીમાં સમાપ્ત થાય છે:",
+      "booster_deals": "બૂસ્ટર સોદા!",
+      "cashback_increased": "તમારા કેશબેક દરમાં વધારો કરવામાં આવ્યો છે"
+    },
+    "verify_phone": {
+      "title": "તમે લૉગ આઉટ થયા છો, જલ્દી પાછા આવો!",
+      "desc": "<strong>પ્રથમ અને સૌથી અગત્યનું, અમે તમને ક્યારેય માર્કેટિંગ SMS મોકલીશું નહીં કે તમારો નંબર આપીશું નહીં.</stong> અમે તમારા સેલ ફોન નંબરની ચકાસણી કરીએ છીએ જેથી કરીને અમે છેતરપિંડી અટકાવી શકીએ. ઉદાહરણ તરીકે, જો અમને તમારા કેશબેક એકાઉન્ટ પર શંકાસ્પદ પ્રવૃત્તિ જણાય તો અમે તમારા મોબાઇલ ફોન પર તમારો સંપર્ક કરી શકીએ છીએ.",
+      "msg": "તેથી ચિંતા કરશો નહીં"
+    },
+    "extension_uninstall": {
+      "submit_success": "અમે તમને જતા જોઈને દિલગીર છીએ. અમે આશા રાખીએ છીએ કે એક દિવસ તમે પાછા આવશો અને અમને બીજો પ્રયાસ કરશો. ત્યાં સુધી, કાળજી લો!",
+      "msg_placeholder": "વિગતોમાં તમારી ક્વેરીનો ઉલ્લેખ કરો જેથી અમે સમજી શકીએ અને ઝડપથી પાછા આવી શકીએ."
+    }
+  },
+  "user_dashboard": {
+    "search_filter": {
+      "popular": "પ્રખ્યાત",
+      "alphabetical": "આલ્ફાબેટીકલ",
+      "cashback": "પાછા આવેલા પૈસા",
+      "search_records": "શોધો :COUNT રેકોર્ડ્સ",
+      "search_record_placeholder": "રેકોર્ડ્સ શોધો"
+    },
+    "common": {
+      "cashback": "પાછા આવેલા પૈસા",
+      "reward": "પુરસ્કાર",
+      "already_verified": "પહેલેથી ચકાસાયેલ છે?",
+      "email_not_verified": "તમારું ઈમેલ હજુ સુધી ચકાસાયેલ નથી, કૃપા કરીને સક્રિય કરો",
+      "verify_alert": "તમારા એકાઉન્ટને સંપૂર્ણ રીતે ઍક્સેસ કરવા માટે કૃપા કરીને તમારી ઇમેઇલ ચકાસો.",
+      "request_verification": "જો ઇમેઇલ પ્રાપ્ત ન થાય તો નવી ચકાસણીની વિનંતી કરો.",
+      "resend_verification_btn": "ચકાસણી ઇમેઇલ ફરીથી મોકલો",
+      "click_here": "અહીં ક્લિક કરો",
+      "cashback_reward_earning": "કેશબેક અને પુરસ્કારની કમાણી",
+      "month_wise_earning": "મહિના પ્રમાણે કેશબેક અને બોનસની કમાણી જુઓ",
+      "shopping_trips": "શોપિંગ ટ્રીપ્સ",
+      "view_daily_clicks": "છેલ્લા :DAYS દિવસો માટે દૈનિક ક્લિક્સ જુઓ",
+      "up_to": "સુધી",
+      "flat": "ફ્લેટ",
+      "are_you_sure": "શું તમને ખાતરી છે?",
+      "yes": "હા",
+      "no": "ના"
+    },
+    "overview": {
+      "total_earned": "કુલ કમાણી",
+      "available": "ઉપલબ્ધ છે",
+      "paid": "ચૂકવેલ",
+      "pending": "બાકી છે"
+    },
+    "payment": {
+      "payments_tab": "ચુકવણીઓ",
+      "history_tab": "ઇતિહાસ",
+      "amount_validation_alert": "રકમ ન્યૂનતમ ચૂકવવાપાત્ર રકમ કરતાં વધુ હોવી જોઈએ",
+      "available_for_payment": "ચુકવણી માટે ઉપલબ્ધ",
+      "payment_mode": "તમારો ચુકવણી મોડ",
+      "minimum_payout": "ન્યૂનતમ ચૂકવણી",
+      "available_payout": "ઉપલબ્ધ ચૂકવણી",
+      "add_payment_mode": "નવો ચુકવણી મોડ ઉમેરો",
+      "not_enough_amount": "પૂરતી રકમ નથી",
+      "cashback": "પાછા આવેલા પૈસા",
+      "reward": "પુરસ્કાર",
+      "request_payout": "ચુકવણીની વિનંતી કરો",
+      "payout_request_success": "ચુકવણી સફળતાપૂર્વક વિનંતી કરી",
+      "payout_request_error": "ચૂકવણીની વિનંતી નિષ્ફળ થઈ! ફરીથી પ્રયત્ન કરો",
+      "pending_payment": "તમારી અગાઉની વિનંતી પ્રક્રિયામાં છે, કૃપા કરીને પછીથી નવી વિનંતી કરો.",
+      "not_found": "ચુકવણીની વિનંતી મળી નથી",
+      "already_verified": "વિનંતી પહેલેથી ચકાસાયેલ છે",
+      "success_verified": "ચુકવણીની વિનંતી સફળતાપૂર્વક ચકાસવામાં આવી છે",
+      "email_sent": "ઇમેઇલ સફળતાપૂર્વક મોકલવામાં આવ્યો!",
+      "email_request_failed": "ઇમેઇલ વિનંતી નિષ્ફળ",
+      "enter_amount": "રકમ દાખલ કરો",
+      "enter_valid_amount": "કૃપા કરીને માન્ય રકમ દાખલ કરો. દશાંશ મૂલ્ય સ્વીકારવામાં આવતું નથી",
+      "previous_request_in_process": "તમારી અગાઉની વિનંતી પ્રક્રિયામાં છે, કૃપા કરીને પછીથી નવી વિનંતી કરો.",
+      "account": "એકાઉન્ટ"
+    },
+    "activities": {
+      "shopping_tab": "શોપિંગ",
+      "referral_tab": "રેફરલ",
+      "bonus_tab": "બોનસ",
+      "click_tab": "ક્લિક્સ"
+    },
+    "refer_earn": {
+      "invite_friends_reward": "તમારા મિત્ર દ્વારા કરવામાં આવતા તમામ વ્યવહારો માટે",
+      "copy_link": "લિંક કૉપિ કરો",
+      "referral_link_note": "તમારી અનન્ય રેફરલ લિંક",
+      "invite_by_email": "ઈમેલ દ્વારા આમંત્રિત કરો",
+      "email_placeholder": "ઈમેલ",
+      "share_with_social": "સોશિયલ મીડિયા સાથે શેર કરો",
+      "referral_terms": "રેફરલ શરતો",
+      "referral_activities": "તમારી રેફરલ પ્રવૃત્તિઓ",
+      "email_error": "માન્ય ઇમેઇલ સરનામું દાખલ કરો",
+      "see_terms": "શરતો જુઓ",
+      "invite_sent": "આમંત્રણ મોકલ્યું",
+      "enter_email_placeholder": "ઈમેલ દાખલ કરો",
+      "invite": "આમંત્રિત",
+      "invite_bonus_condition": "(*બોનસને બાકી તરીકે ટ્રૅક કરવામાં આવશે, તમારે અને તમારા મિત્રોને બોનસ કન્ફર્મ કરવામાં સક્ષમ થવા માટે જોડાયાના :REDEEMLIMIT દિવસોની અંદર: MAXCASHBACK મૂલ્યનું કેશબેક કમાવવાની જરૂર છે, જો તે સમાપ્ત થશે નહીં)",
+      "invite_friends_bonus": "જ્યારે કોઈ તમારી રેફરલ લિંકનો ઉપયોગ કરીને જોડાય છે, ત્યારે તમે કમાશો",
+      "join_with_refer": "કોઈપણ મિત્ર અમારા પ્લેટફોર્મમાં જોડાશે તો કમાણી થશે",
+      "how_refer_earn_works": "કેવી રીતે સંદર્ભ લો અને કમાઓ કામ કરે છે",
+      "eligibility_terms": "પાત્રતાની શરતો",
+      "eligibility_terms_first": "રેફરલ બોનસ કન્ફર્મ થાય છે જ્યારે કન્ફર્મ કેશબેક મૂલ્ય :AMOUNT :DAYS દિવસમાં કમાયા",
+      "eligibility_terms_second": "જોડાવાનું બોનસ કન્ફર્મ થાય છે જ્યારે કન્ફર્મ કેશબેક મૂલ્ય :AMOUNT :DAYS દિવસમાં કમાય છે.",
+      "eligibility_terms_third": "તમારું રેફરલ બોનસ ત્યારે જ કન્ફર્મ થાય છે જ્યારે તમારો રેફરલ ફ્રેન્ડ બોનસ કન્ફર્મ કરે.",
+      "eligibility_terms_fourth": "રેફરલ કમાણીની સ્થિતિ સીધી તમારા મિત્રના વ્યવહારોની સ્થિતિ સાથે જોડાયેલ છે.",
+      "referral_reward": "રેફરલ પુરસ્કાર",
+      "referral_bonus": "રેફરલ બોનસ",
+      "joining_bonus": "જોડાવાનું બોનસ",
+      "disable_warn": "તમારા એકાઉન્ટ માટે રેફર એન્ડ અર્ન અક્ષમ છે, વધુ માહિતી માટે કૃપા કરીને અમારો સંપર્ક કરો"
+    },
+    "share_earn": {
+      "create_link": "તમારી પોતાની લિંક્સ બનાવો અને જ્યારે અન્ય લોકો ખરીદી કરે ત્યારે પૈસા કમાઓ",
+      "link_title_note": "અર્થપૂર્ણ શીર્ષક દાખલ કરો જેથી તમારા મિત્રને ઑફર્સની વિગતો ખબર પડે.",
+      "offer_link_placeholder": "ઓફર લિંક દાખલ કરો",
+      "offer_title_placeholder": "ઓફર શીર્ષક દાખલ કરો",
+      "link_note": "સ્પષ્ટ લિંક દાખલ કરો, કોઈ રેફરલ અને કસ્ટમાઇઝ્ડ લિંક્સ નથી",
+      "create_link_btn": "લિંક બનાવો",
+      "learn_share_earn": "જાણો શેર કરો અને કમાઓ",
+      "link_success_msg": "લિંક સફળતાપૂર્વક બનાવવામાં આવી. આ લિંક કોપી કરો અને શેર કરો",
+      "share_with": "સાથે શેર કરો",
+      "validation_error": "કૃપા કરીને બધી વિગતો ભરો",
+      "offer_title": "ઓફર શીર્ષક",
+      "copy_link": "લિંક કૉપિ કરો",
+      "or": "અથવા",
+      "create_new_link": "નવી લિંક બનાવો",
+      "offer_title_note": "અર્થપૂર્ણ શીર્ષક દાખલ કરો જેથી તમારા મિત્રને ઑફર્સની વિગતો ખબર પડે.",
+      "link_error_msg": "કૃપા કરીને માન્ય લિંક દાખલ કરો",
+      "network_error": "નેટવર્ક ક્ષતિ",
+      "copied_link": "કોપી કરેલ લિંક",
+      "offer_link": "ઓફર લિંક",
+      "how_share_earn_works": "કેવી રીતે શેર અને કમાઓ કામ કરે છે",
+      "see_terms": "શરતો જુઓ",
+      "disable_warn": "તમારા એકાઉન્ટ માટે શેર અને કમાઓ અક્ષમ છે, વધુ માહિતી માટે કૃપા કરીને અમારો સંપર્ક કરો"
+    },
+    "account_setting": {
+      "edit_profile": "પ્રોફાઇલ સંપાદિત કરો",
+      "manage_profile": "તમારી પ્રોફાઇલ માહિતી મેનેજ કરો.",
+      "firstname_placeholder": "પ્રથમ નામ દાખલ કરો",
+      "lastname_placeholder": "છેલ્લું નામ દાખલ કરો",
+      "change_password": "પાસવર્ડ બદલો",
+      "manage_password": "પાસવર્ડ મેનેજ કરો",
+      "current_password": "અત્યારનો પાસવર્ડ",
+      "current_password_placeholder": "વર્તમાન પાસવર્ડ દાખલ કરો",
+      "new_password": "નવો પાસવર્ડ",
+      "change_password_btn": "પાસવર્ડ બદલો",
+      "change_email_note": "તમારું ઇમેઇલ સરનામું બદલવા માટે કૃપા કરીને અમારો સંપર્ક કરો.",
+      "resend_btn": "ફરી મોકલો",
+      "confirm_password_validation": "નવો પાસવર્ડ અને કન્ફર્મ પાસવર્ડ મેળ ખાતા નથી",
+      "form_validation": "બધા મૂલ્યો દાખલ કરો",
+      "firstname": "પ્રથમ નામ",
+      "lastname": "છેલ્લું નામ",
+      "save_btn": "સાચવો",
+      "new_password_placeholder": "નવો પાસવર્ડ દાખલ કરો",
+      "confirm_password": "પાસવર્ડની પુષ્ટિ કરો",
+      "confirm_password_placeholder": "કન્ફર્મ પાસવર્ડ દાખલ કરો",
+      "email": "ઈમેલ",
+      "email_placeholder": "ઈમેલ",
+      "link_mobile_number": "મોબાઈલ નંબર લિંક કરો",
+      "link_number_note": "તમારો મોબાઈલ નંબર બદલવા માટે અમારો સંપર્ક કરો.",
+      "bio_placeholder": "બાયો",
+      "bio": "બાયો",
+      "birth_date": "જન્મતારીખ",
+      "anniversary_date": "વર્ષગાંઠની તારીખ",
+      "gender": "જાતિ",
+      "marital_status": "વૈવાહિક સ્થિતિ",
+      "occupation": "વ્યવસાય",
+      "occupation_placeholder": "વ્યવસાય",
+      "address": "સરનામું",
+      "address_placeholder": "સરનામું",
+      "city": "શહેર",
+      "city_placeholder": "શહેર",
+      "state": "રાજ્ય",
+      "state_placeholder": "રાજ્ય",
+      "country": "દેશ",
+      "pincode": "પીન કોડ",
+      "pincode_placeholder": "પીન કોડ",
+      "choose_lang": "ભાષા પસંદ કરો",
+      "profile_info_updated": "પ્રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ!",
+      "request_failed_try_again": "વિનંતી નિષ્ફળ. મહેરબાની કરીને ફરીથી પ્રયતન કરો!",
+      "lang_updated": "ભાષા સફળતાપૂર્વક અપડેટ થઈ!",
+      "lang_update_request_failed": "ભાષા અપડેટ વિનંતી નિષ્ફળ",
+      "password_change_success": "પાસવર્ડ સફળતાપૂર્વક બદલાયો!",
+      "change_password_error": "પાસવર્ડ બદલવાની વિનંતી નિષ્ફળ થઈ! ફરીથી પ્રયત્ન કરો",
+      "activation_link_sent": "તમારા મેઇલ પર એકાઉન્ટ સક્રિયકરણ લિંક મોકલવામાં આવી છે, કૃપા કરીને તપાસો",
+      "activation_failed": "એકાઉન્ટ સક્રિયકરણ નિષ્ફળ થયું",
+      "name_updated": "નામ સફળતાપૂર્વક અપડેટ થયું!",
+      "male": "પુરુષ",
+      "female": "સ્ત્રી",
+      "other": "અન્ય",
+      "enter_value_alert": "કૃપા કરીને તમામ ફરજિયાત ફીલ્ડ્સ ભરો",
+      "married": "લગ્ન કર્યા",
+      "single": "એકલુ",
+      "please_select": "કૃપા કરી પસંદ કરો",
+      "email_verification_note": "ઇમેઇલ ચકાસાયેલ નથી. ચકાસણી ઇમેઇલ ફરીથી મોકલો.",
+      "wrong_password": "વર્તમાન પાસવર્ડ મૂલ્ય ખોટું છે",
+      "invalid_lang": "અમાન્ય ભાષા",
+      "same_password": "વર્તમાન પાસવર્ડ અને નવો પાસવર્ડ સમાન છે. કૃપા કરીને એક અલગ પાસવર્ડ પસંદ કરો",
+      "account_deleted": "એકાઉન્ટ કાઢી નાખ્યું",
+      "delete_my_account": "મારું એકાઉન્ટ કાઢી નાખો"
+    },
+    "payment_mode": {
+      "validation_error": "કૃપા કરીને બધી વિગતો ભરો",
+      "name": "નામ",
+      "add": "ઉમેરો",
+      "name_placeholder": "મારું વ્યક્તિગત એકાઉન્ટ નામ",
+      "payment_mode_success": "ચુકવણી મોડ સફળતાપૂર્વક ઉમેરાયો!",
+      "payment_mode_error": "પેઆઉટ મોડ ઉમેરવાની વિનંતી નિષ્ફળ થઈ",
+      "invalid_mode": "અમાન્ય ચુકવણી મોડ",
+      "not added": "ચુકવણી પદ્ધતિ ઉમેરવામાં આવી નથી",
+      "payment_mode_not_exist": "ચુકવણી મોડ અસ્તિત્વમાં નથી.",
+      "payment_mode_delete_success": "ચુકવણી મોડ સફળતાપૂર્વક કાઢી નાખ્યો!",
+      "payment_mode_update_error": "પેઆઉટ મોડ અપડેટ વિનંતી નિષ્ફળ",
+      "payment_mode_update_success": "ચુકવણી મોડ સફળતાપૂર્વક અપડેટ થયો!"
+    },
+    "favorites": {
+      "no_favorite_found": "કોઈ મનપસંદ સ્ટોર મળ્યાં નથી!",
+      "loading": "લોડ કરી રહ્યું છે...",
+      "cashback": "પાછા આવેલા પૈસા",
+      "shop_now": "હવે ખરીદી કરો"
+    },
+    "claim": {
+      "validation_error": "કૃપા કરીને બધી વિગતો ભરો",
+      "create_claim": "દાવો બનાવો",
+      "create_claim_btn": "દાવો બનાવો",
+      "store": "દુકાન",
+      "shopping_trip": "શોપિંગ ટ્રીપ",
+      "ordering_platform": "ઓર્ડરિંગ પ્લેટફોર્મ",
+      "order_id": "ઓર્ડર આઈડી",
+      "currency": "ચલણ",
+      "amount_placeholder": "રકમ",
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "additional_information": "વધારાની માહિતી",
+      "submit_btn": "સબમિટ કરો",
+      "note": "અમે તમારી પરવાનગી વિના ક્યારેય કંઈપણ પોસ્ટ કરીશું નહીં",
+      "create_claim_success": "દાવો સફળતાપૂર્વક બનાવવામાં આવ્યો!",
+      "claim_request_failed": "દાવાની વિનંતી નિષ્ફળ ગઈ! ફરીથી પ્રયત્ન કરો",
+      "no_claims": "કોઈ દાવા મળ્યા નથી!",
+      "purchase_date": "ખરીદ તારીખ",
+      "website": "વેબસાઈટ",
+      "mobile": "મોબાઈલ",
+      "ios": "iOS",
+      "android": "એન્ડ્રોઇડ",
+      "ordering_id": "ઓર્ડર ID",
+      "closed": "દાવો બંધ છે",
+      "receipt": "રસીદ",
+      "max_size_note": "મહત્તમ ફાઇલ કદની મંજૂરી છે :MAXSIZE. સ્વીકૃત ફોર્મેટ- jpeg, jpg, png, pdf",
+      "no_click_note": "ગુમ થયેલ દાવાની જાણ કરવા માટે છેલ્લા બે દિવસમાં કોઈ શોપિંગ ટ્રિપ્સ મળી નથી, કૃપા કરીને પછીથી તપાસો",
+      "show": "બતાવો"
+    },
+    "nav_menu": {
+      "welcome": "સ્વાગત છે!",
+      "joined_on": "પર જોડાયા"
+    },
+    "pagination": {
+      "show": "બતાવો",
+      "page": "પાનું"
+    }
+  },
+  "table": {
+    "shopping": {
+      "no_data": "કોઈ ડેટા મળ્યો નથી",
+      "click_id": "ક્લિક કરો",
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "store": "દુકાન",
+      "order_amount": "ઓર્ડરની રકમ",
+      "cashback_amount": "કેશબેક રકમ",
+      "status": "સ્થિતિ",
+      "transaction_time": "પર ટ્રેક કરેલ",
+      "confirmed_by": "દ્વારા પુષ્ટિ થયેલ:",
+      "confirmed": "પુષ્ટિ",
+      "pending": "બાકી છે",
+      "declined": "નકારવું",
+      "reward": "પુરસ્કાર",
+      "cashback": "પાછા આવેલા પૈસા"
+    },
+    "referral": {
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "transaction_by": "દ્વારા વ્યવહાર",
+      "store": "દુકાન",
+      "amount": "રકમ",
+      "status": "સ્થિતિ",
+      "no_data": "કોઈ ડેટા મળ્યો નથી",
+      "order_amount": "ઓર્ડરની રકમ",
+      "referral_amount": "રેફરલ રકમ",
+      "pending": "બાકી છે",
+      "confirmed": "પુષ્ટિ",
+      "declined": "નકારવું",
+      "joined": "જોડાયા",
+      "invited": "આમંત્રિત"
+    },
+    "bonus": {
+      "status": "સ્થિતિ",
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "type": "પ્રકાર",
+      "amount": "રકમ",
+      "no_data": "કોઈ ડેટા મળ્યો નથી",
+      "expires_on": "પર સમપ્ત",
+      "pending": "બાકી છે",
+      "confirmed": "પુષ્ટિ",
+      "declined": "નકારવું"
+    },
+    "click": {
+      "trip_date": "પ્રવાસની તારીખ",
+      "click_id": "ક્લિક કરો",
+      "store": "દુકાન",
+      "cashback": "પાછા આવેલા પૈસા",
+      "status": "સ્થિતિ",
+      "no_data": "કોઈ ડેટા મળ્યો નથી",
+      "tracked": "ટ્રેક કરેલ",
+      "clicked": "ક્લિક કર્યું",
+      "network_campaign_id": "ઝુંબેશ ID"
+    },
+    "claim": {
+      "claim_date": "દાવો તારીખ",
+      "shopping_trip_date": "શોપિંગ ટ્રીપ તારીખ",
+      "status": "સ્થિતિ",
+      "store": "દુકાન",
+      "order_id": "ઓર્ડર આઈડી",
+      "order_amount": "ઓર્ડરની રકમ",
+      "created": "બનાવ્યું",
+      "completed": "પૂર્ણ થયું",
+      "processing": "પ્રક્રિયા",
+      "declined": "નકારવું",
+      "open": "ખુલ્લા",
+      "hold": "પકડી રાખવું",
+      "answered": "જવાબ આપ્યો",
+      "closed": "દાવો બંધ છે",
+      "claim_id": "દાવો ID",
+      "network_campaign_id": "ઝુંબેશ ID"
+    },
+    "refer_earn": {
+      "invited_date": "આમંત્રિત તારીખ",
+      "email": "ઈમેલ",
+      "joining_date": "જોડાવાની તારીખ",
+      "name": "નામ",
+      "earning": "કમાણી"
+    },
+    "share_earn": {
+      "created": "બનાવ્યું",
+      "offer_link": "ઓફર લિંક",
+      "store": "દુકાન",
+      "cashback": "પાછા આવેલા પૈસા",
+      "earnings": "કમાણી",
+      "clicks": "ક્લિક્સ"
+    },
+    "payment_history": {
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "withdrawal_id": "ઉપાડ ID",
+      "account_type": "ખાતાનો પ્રકાર",
+      "payment_account": "ચુકવણી ખાતું",
+      "amount": "રકમ",
+      "status": "સ્થિતિ",
+      "resend_email": "ઈમેલ ફરીથી મોકલો",
+      "pending_verification": "ઇમેઇલ ચકાસણી માટે બાકી છે"
+    },
+    "general": {
+      "no_data": "કોઈ ડેટા મળ્યો નથી"
+    },
+    "cashback": {
+      "pending": "બાકી છે",
+      "confirmed": "પુષ્ટિ",
+      "declined": "નકારવું"
+    },
+    "payment": {
+      "created": "બનાવ્યું",
+      "processing": "પ્રક્રિયા",
+      "completed": "પૂર્ણ થયું",
+      "declined": "નકારવું",
+      "pending": "બાકી છે",
+      "confirmed": "પુષ્ટિ"
+    }
+  },
+  "common": {
+    "header_search": {
+      "search_placehoder": "શોધ સ્ટોર"
+    },
+    "scroll_up": {
+      "top": "ટોચ"
+    },
+    "search_filter": {
+      "cashback": "પાછા આવેલા પૈસા",
+      "popular": "પ્રખ્યાત",
+      "alphabetical": "આલ્ફાબેટીકલ",
+      "store_with_cashback": "કેશબેક સાથે સ્ટોર્સ બતાવો",
+      "search_cat": "શ્રેણીઓ શોધો",
+      "search_stores": "સ્ટોર્સ શોધો",
+      "filter_btn": "ફિલ્ટર કરો"
+    },
+    "breadcrumb": {
+      "home": "ઘર",
+      "all_stores": "બધા સ્ટોર્સ",
+      "all_deals": "બધા સોદા",
+      "all_coupon_categories": "તમામ કૂપન કેટેગરીઝ",
+      "all_store_categories": "તમામ સ્ટોર કેટેગરીઝ",
+      "daily_deals": "દૈનિક સોદા",
+      "all_deal_categories": "તમામ ડીલ્સ કેટેગરીઝ",
+      "extra_cashback_rules": "વધારાના કેશબેક નિયમો"
+    },
+    "general": {
+      "best_offer": "શ્રેષ્ઠ ઓફર",
+      "see_more": "વધુ જુઓ",
+      "see_less": "ઓછું જુઓ",
+      "view_more_deals": "વધુ જુઓ :CATEGORY ડીલ્સ",
+      "yes": "હા",
+      "no": "ના",
+      "get_code_btn": "કોડ મેળવો",
+      "view_more_store": "વધુ જુઓ :CATEGORY સ્ટોર્સ",
+      "view_more_coupons": "વધુ જુઓ :CATEGORY કૂપન્સ",
+      "copy_code_tooltip": "કોડ કૉપિ કરો અને વેપારીની મુલાકાત લો",
+      "get_discount": "ડિસ્કાઉન્ટ મેળવો",
+      "show_more": "વધારે બતાવ",
+      "shop_now_btn": "હવે ખરીદી કરો",
+      "see_more_cashback": "વધુ કેશબેક જુઓ",
+      "android": "એન્ડ્રોઇડ",
+      "apple": "એપલ",
+      "chrome": "ક્રોમ",
+      "firefox": "ફાયરફોક્સ",
+      "safari": "સફારી",
+      "no_stores": "કોઈ સ્ટોર નથી, કૃપા કરીને પછીથી તપાસો",
+      "edge": "એજ"
+    },
+    "store_cashback": {
+      "was_cashback_string": "હતું: CASHBACK",
+      "upto": "સુધી",
+      "flat": "ફ્લેટ"
+    },
+    "cta": {
+      "join_now": "હવે જોડાઓ",
+      "existing_user": "હાલના વપરાશકર્તા",
+      "login": "પ્રવેશ કરો",
+      "already_register": "પહેલેથી નોંધાયેલ છે?"
+    },
+    "mobile_menu": {
+      "logout": "લૉગ આઉટ",
+      "language": "ભાષા",
+      "my_account": "મારું ખાતું",
+      "signin": "સાઇન ઇન કરો",
+      "join_us": "અમારી સાથ જોડાઓ"
+    },
+    "error": {
+      "general": "કંઈક ખોટું થયું, પછીથી ફરી પ્રયાસ કરો"
+    },
+    "desktop_menu": {
+      "signin": "સાઇન ઇન કરો",
+      "join_us": "અમારી સાથ જોડાઓ"
+    }
+  },
+  "custom_validation": {
+    "attribute-name": {
+      "rule-name": "નિયમ-નામ"
+    },
+    "g-recaptcha-response": {
+      "required": "આ :attribute ફીલ્ડ જરૂરી છે."
+    },
+    "general": {
+      "captcha": "કેપ્ચા ભૂલ! પછીથી ફરી પ્રયાસ કરો અથવા સાઇટ એડમિનનો સંપર્ક કરો."
+    }
+  },
+  "validation": {
+    "general": {
+      "accepted": "આ :attribute સ્વીકારવી આવશ્યક છે.",
+      "active_url": "આ :attribute માન્ય URL નથી.",
+      "after": ":attribute :date પછીની તારીખ હોવી જોઈએ.",
+      "after_or_equal": ":attribute :date પછીની અથવા તેની બરાબરની તારીખ હોવી જોઈએ.",
+      "alpha": ": લક્ષણમાં માત્ર અક્ષરો હોઈ શકે છે.",
+      "alpha_dash": ": વિશેષતામાં માત્ર અક્ષરો, સંખ્યાઓ, ડેશ અને અન્ડરસ્કોર હોઈ શકે છે.",
+      "alpha_num": ": લક્ષણમાં માત્ર અક્ષરો અને સંખ્યાઓ હોઈ શકે છે.",
+      "array": "આ :attribute એરે હોવી જોઈએ.",
+      "before": ":attribute :date પહેલાની તારીખ હોવી જોઈએ.",
+      "before_or_equal": ":attribute :date પહેલાંની અથવા તેની બરાબરની તારીખ હોવી જોઈએ.",
+      "boolean": ":attribute ફીલ્ડ સાચું કે ખોટું હોવું જોઈએ.",
+      "confirmed": "પુષ્ટિ",
+      "date": "આ :attribute માન્ય તારીખ નથી.",
+      "date_equals": ":attribute તારીખ :date ની સમાન હોવી જોઈએ.",
+      "date_format": "આ :attribute format :format સાથે મેળ ખાતું નથી.",
+      "different": "આ :attribute અને :other અલગ હોવા જોઈએ.",
+      "digits": "આ :attribute :digits હોવી જોઈએ.",
+      "digits_between": "આ :attribute :min અને :max અંકોની વચ્ચે હોવી જોઈએ.",
+      "dimensions": "આ :attribute માં અમાન્ય ઇમેજ પરિમાણો છે.",
+      "distinct": ":attribute ફીલ્ડમાં ડુપ્લિકેટ મૂલ્ય છે.",
+      "email": "ઈમેલ",
+      "ends_with": "આ :attribute નીચેનામાંથી એક સાથે સમાપ્ત થવી જોઈએ: :values.",
+      "exists": "પસંદ કરેલ : વિશેષતા અમાન્ય છે.",
+      "file": ":attribute ફીલ્ડમાં ડુપ્લિકેટ મૂલ્ય છે.",
+      "filled": ":attribute ફીલ્ડમાં મૂલ્ય હોવું આવશ્યક છે.",
+      "image": "આ :attribute એક છબી હોવી જોઈએ.",
+      "in": "પસંદ કરેલ : વિશેષતા અમાન્ય છે.",
+      "in-array": "આ :attribute ફીલ્ડ :other માં અસ્તિત્વમાં નથી.",
+      "integer": "આ :attribute પૂર્ણાંક હોવો જોઈએ.",
+      "ip": "આ :attribute માન્ય IP સરનામું હોવું આવશ્યક છે.",
+      "ipv4": "આ :attribute માન્ય IPv4 સરનામું હોવું આવશ્યક છે.",
+      "ipv6": "આ :attribute માન્ય IPv6 સરનામું હોવું આવશ્યક છે.",
+      "json": "આ :attribute માન્ય JSON સ્ટ્રિંગ હોવી આવશ્યક છે.",
+      "mimes": ":attribute પ્રકાર: :values ​​ની ફાઇલ હોવી આવશ્યક છે.",
+      "mimetypes": ":attribute પ્રકાર: :values ​​ની ફાઇલ હોવી આવશ્યક છે.",
+      "not_in": "પસંદ કરેલ : વિશેષતા અમાન્ય છે.",
+      "not_regex": "આ :attribute ફોર્મેટ અમાન્ય છે.",
+      "numeric": "આ :attribute સંખ્યા હોવી જોઈએ.",
+      "password": "પાસવર્ડ ખોટો છે.",
+      "present": ":attribute ફીલ્ડ હાજર હોવું આવશ્યક છે.",
+      "regex": "આ :attribute ફોર્મેટ અમાન્ય છે.",
+      "required": "આ :attribute ફીલ્ડ જરૂરી છે.",
+      "required_if": "જ્યારે :અન્ય :વેલ્યુ હોય ત્યારે :attribute ફીલ્ડ જરૂરી છે.",
+      "required_unless": "આ :attribute ફીલ્ડ જરૂરી છે સિવાય કે :other :values ​​માં હોય.",
+      "required_with": "જ્યારે :values ​​હાજર હોય ત્યારે :attribute ફીલ્ડ જરૂરી છે.",
+      "required_with_all": "જ્યારે :values ​​હાજર હોય ત્યારે :attribute ફીલ્ડ જરૂરી છે.",
+      "required_without": "જ્યારે :values ​​હાજર ન હોય ત્યારે :attribute ફીલ્ડ જરૂરી છે.",
+      "required_without_all": "જ્યારે :મૂલ્યોમાંથી કોઈ હાજર ન હોય ત્યારે :attribute ફીલ્ડ જરૂરી છે.",
+      "same": "આ :attribute અને :other મેચ થવો જોઈએ.",
+      "string": "આ :attribute એક શબ્દમાળા હોવી જોઈએ.",
+      "timezone": "આ :attribute માન્ય ઝોન હોવું આવશ્યક છે.",
+      "unique": "આ :attribute પહેલેથી લેવામાં આવી છે.",
+      "uploaded": "આ :attribute અપલોડ કરવામાં નિષ્ફળ.",
+      "url": "આ :attribute ફોર્મેટ અમાન્ય છે.",
+      "uuid": "આ :attribute માન્ય UUID હોવું આવશ્યક છે.",
+      "email_not_exist": "ઈમેલ અસ્તિત્વમાં નથી",
+      "not_registerd_using_email": "તમે પાસવર્ડ રીસેટ કરી શકતા નથી કારણ કે તમે ઈમેલનો ઉપયોગ કરીને નોંધણી કરાવી નથી",
+      "phone_number_exist": "ફોન નંબર પહેલેથી જ અસ્તિત્વમાં છે"
+    },
+    "between": {
+      "numeric": ":attribute :min અને :max ની વચ્ચે હોવી જોઈએ.",
+      "file": ":attribute :min અને :max kilobytes ની વચ્ચે હોવી જોઈએ.",
+      "string": ":attribute :min અને :max અક્ષરોની વચ્ચે હોવી જોઈએ.",
+      "array": "આ :attribute :min અને :max આઇટમ વચ્ચે હોવી જોઈએ."
+    },
+    "gt": {
+      "numeric": ":attribute :value કરતાં મોટી હોવી જોઈએ.",
+      "file": "આ :attribute :value kilobytes કરતાં મોટી હોવી જોઈએ.",
+      "string": "આ :attribute :value અક્ષરો કરતાં મોટી હોવી જોઈએ.",
+      "array": ":attributeમાં :value કરતાં વધુ વસ્તુઓ હોવી આવશ્યક છે"
+    },
+    "gte": {
+      "numeric": ":attribute :value કરતાં મોટી અથવા સમાન હોવી જોઈએ.",
+      "file": "આ :attribute :value kilobytes કરતાં વધારે અથવા બરાબર હોવું જોઈએ.",
+      "string": "આ :attribute :value અક્ષરો કરતા વધારે અથવા સમાન હોવું જોઈએ.",
+      "array": ":વિશેષમાં :મૂલ્ય વસ્તુઓ અથવા વધુ હોવી આવશ્યક છે."
+    },
+    "lt": {
+      "numeric": ":attribute :value કરતાં ઓછી હોવી જોઈએ.",
+      "file": ":attribute :value kilobytes કરતાં ઓછી હોવી જોઈએ.",
+      "string": "આ :attribute :value અક્ષરો કરતાં ઓછી હોવી જોઈએ.",
+      "array": ": વિશેષતામાં : મૂલ્ય આઇટમ કરતાં ઓછી હોવી આવશ્યક છે."
+    },
+    "lte": {
+      "numeric": ":attribute :value કરતાં ઓછું અથવા બરાબર હોવું જોઈએ.",
+      "file": "આ :attribute :value kilobytes કરતાં ઓછી અથવા બરાબર હોવી જોઈએ.",
+      "string": "આ :attribute :value અક્ષરો કરતાં ઓછી અથવા સમાન હોવી જોઈએ.",
+      "array": ": વિશેષતામાં : મૂલ્ય આઇટમ કરતાં વધુ ન હોવી જોઈએ."
+    },
+    "max": {
+      "numeric": "આ :attribute :max કરતાં વધુ ન હોઈ શકે.",
+      "file": "આ :attribute :max kilobytes કરતાં વધુ ન હોઈ શકે.",
+      "string": "આ :attribute :max અક્ષરો કરતા વધારે ન હોઈ શકે.",
+      "array": ":attributeમાં :max કરતાં વધુ વસ્તુઓ ન હોઈ શકે."
+    },
+    "min": {
+      "numeric": "આ :attribute ઓછામાં ઓછું હોવું જોઈએ :min.",
+      "file": "આ :attribute ઓછામાં ઓછું :min kilobytes હોવી જોઈએ.",
+      "string": ":attribute ઓછામાં ઓછા :min અક્ષરોની હોવી જોઈએ.",
+      "array": ":attributeમાં ઓછામાં ઓછી :min આઇટમ હોવી આવશ્યક છે."
+    },
+    "size": {
+      "numeric": "આ :attribute :size હોવી જોઈએ.",
+      "file": "આ :attribute :size kilobytes હોવી જોઈએ.",
+      "string": ": લક્ષણ : કદના અક્ષરો હોવા જોઈએ.",
+      "array": "એટ્રીબ્યુટમાં :સાઇઝની વસ્તુઓ હોવી આવશ્યક છે."
+    },
+    "attributes": {
+      "email": "ઈમેલ",
+      "g-recaptcha-response": "g-recaptcha-પ્રતિસાદ",
+      "privacy policy": "રાજકીય ગોપનીયતા",
+      "referrer_code": "રેફરર કોડ",
+      "password": "પાસવર્ડ",
+      "phone": "ફોન",
+      "store_id": "દુકાન",
+      "click_id": "ક્લિક કરો",
+      "platform": "પ્લેટફોર્મ",
+      "order_amount": "ઓર્ડરની રકમ",
+      "currency": "ચલણ",
+      "transaction_date": "વ્યવહારની તારીખ",
+      "user_message": "વપરાશકર્તા સંદેશ",
+      "comment": "ટિપ્પણી",
+      "mode": "મોડ",
+      "method_name": "પદ્ધતિનું નામ",
+      "account": "એકાઉન્ટ",
+      "pay_mode": "ચુકવણી મોડ",
+      "payment_amount": "ચુકવણી ની રકમ",
+      "old_password": "જુનો પાસવર્ડ",
+      "new_password": "નવો પાસવર્ડ",
+      "repeat_password": "પાસવર્ડ નું પુનરાવર્તન કરો",
+      "name": "નામ",
+      "message": "સંદેશ",
+      "reason": "કારણ",
+      "first_name": "પ્રથમ નામ",
+      "last_name": "છેલ્લું નામ",
+      "otp": "OTP",
+      "phone_number": "ફોન નંબર",
+      "order_id": "ઓર્ડર આઈડી"
+    }
+  },
+  "app": {
+    "auth": {
+      "email_sent": "ઈ - મેઈલ મોકલી દીધો છે"
+    }
+  },
+  "mail": {
+    "extention": {
+      "install_extension": "ઇન્સ્ટોલ કરો : APPNAME બ્રાઉઝર એક્સ્ટેંશન",
+      "never_miss_cashback": "વધારાનું કેશબેક મેળવવાનું ક્યારેય ચૂકશો નહીં!"
+    },
+    "app": {
+      "access_from_smartphone": "હવે ઍક્સેસ કરો : તમારા સ્માર્ટફોનમાંથી APPNAME!"
+    },
+    "social": {
+      "get_social": "ચાલો સામાજિક બનીએ!"
+    },
+    "footer": {
+      "note": "અમે તમારી પરવાનગી વિના ક્યારેય કંઈપણ પોસ્ટ કરીશું નહીં"
+    }
+  }
+}

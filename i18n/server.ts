@@ -8,6 +8,7 @@ import {
   LANGUAGE_COOKIE,
 } from './settings';
 import {cookies} from 'next/headers';
+import {getTranslationFileFromAPI} from '../actions/action';
 
 async function initI18next(lang: Locales, namespace: string) {
   const i18nInstance = createInstance();
@@ -16,7 +17,12 @@ async function initI18next(lang: Locales, namespace: string) {
     .use(
       resourcesToBackend(
         // Get the JSON file that matches the locale and namespace
-        (lang: string, ns: string) => import(`./locales/${lang}/${ns}.json`),
+        async (lang: string, ns: string) => {
+          console.log('in');
+          const data = await getTranslationFileFromAPI({lang, from: 'server'});
+          return data;
+          // import(`./locales/${lang}/${ns}.json`);
+        },
       ),
     )
     // Initialize i18next with the options we created earlier

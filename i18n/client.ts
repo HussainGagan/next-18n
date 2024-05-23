@@ -4,6 +4,8 @@ import {useEffect} from 'react';
 import i18next, {i18n} from 'i18next';
 import {initReactI18next, useTranslation as useTransAlias} from 'react-i18next';
 import resourcesToBackend from 'i18next-resources-to-backend';
+import HttpBackend from 'i18next-http-backend';
+
 import LanguageDetector from 'i18next-browser-languagedetector';
 import {
   Locales,
@@ -12,6 +14,8 @@ import {
   supportedLocales,
 } from './settings';
 import {useLocale} from '../hooks/locale-provider';
+import {getTranslationFileFromAPI} from '../actions/action';
+import i18nextHttpBackend from 'i18next-http-backend';
 
 const runsOnServerSide = typeof window === 'undefined';
 
@@ -19,10 +23,15 @@ const runsOnServerSide = typeof window === 'undefined';
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
+  .use(i18nextHttpBackend)
   .use(
-    resourcesToBackend(
-      (lang: string, ns: string) => import(`./locales/${lang}/${ns}.json`),
-    ),
+    resourcesToBackend(async (lang: string, ns: string) => {
+      console.log('in client');
+      const data = await getTranslationFileFromAPI({lang, from: 'client'});
+      console.log(data);
+      return data;
+      // import(`./locales/${lang}/${ns}.json`);
+    }),
   )
   .init({
     ...getOptions(),

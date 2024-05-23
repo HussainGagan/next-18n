@@ -1,0 +1,903 @@
+{
+  "auth": {
+    "form": {
+      "email_placeholder": "Enter Email",
+      "password_placeholder": "Enter Password fr",
+      "existing_user": "Utilisateur existant",
+      "note": "Nous ne publierons jamais rien sans votre permission",
+      "terms_apply": "Les conditions d'adhésion et de parrainage s'appliquent*",
+      "remember_me": "Souviens-toi de moi",
+      "reset_password": "Réinitialisez votre mot de passe",
+      "email_valid_msg": "Cela semble bon!",
+      "forgot_password_link": "Mot de passe oublié?",
+      "forgot_password_note": "Entrez votre adresse e-mail et nous vous enverrons les instructions pour réinitialiser votre mot de passe",
+      "time_left": "Temps restant =",
+      "not_member": "Non membre",
+      "sign_up_get": "Inscrivez-vous et obtenez",
+      "today": "Aujourd'hui",
+      "social_media_signup": "Welcome! You are just a click away from joining #1 cashback website.",
+      "someone_refer_you": "Quelqu'un vous a référé ?",
+      "enter_otp": "Entrez OTP",
+      "social_media_email_validation": "Entrez un email valide pour recevoir le lien de vérification",
+      "agree_policy": "J'accepte la <a href=':PRIVACY' class='text-purple'  target='_blank'>politique de confidentialité</a> et les <a href=':TERMS' class='text-purple'  target='_blank'>conditions d'utilisation</a>",
+      "forgot_password": "Mot de passe oublié!",
+      "signin": "S'identifier",
+      "send_reset_link": "Envoyer le lien de réinitialisation du mot de passe",
+      "signin_with_facebook": "Connectez-vous avec Facebook",
+      "signin_with_google": "Connectez-vous avec Google",
+      "signin_with_apple": "Connectez-vous avec Apple",
+      "enter_mobile_number": "Entrez s'il vous plaît votre numéro de téléphone",
+      "request_otp": "Demander OTP",
+      "resend_otp": "Renvoyer OTP",
+      "verify_now": "Vérifiez maintenant",
+      "referral_code_placeholder": "Code de parrainage (facultatif)",
+      "email_placeholder_2": null,
+      "email_placeholder_test_2": null,
+      "email_placeholder_test_3": null,
+      "email_placeholder_6": null
+    },
+    "button": {
+      "change_password": "Changer le mot de passe",
+      "signin": "S'identifier",
+      "join_now": "Adhérer maintenant",
+      "logout": "Se déconnecter"
+    },
+    "general": {
+      "failed": "Ces informations d'identification ne correspondent pas à nos dossiers.",
+      "throttle": "Trop de tentatives de connexion. S'il vous plait, réessayez dans quelques minutes.",
+      "invalid_signature": "Signature non valide",
+      "maintenance_mode": "Nous sommes en maintenance",
+      "maintenance_mode_desc": "Ce site Web est en cours de maintenance et nous serons bientôt de retour en ligne. Remercions de votre patience!",
+      "maintenance_mode_meta_title": "Site en maintenance"
+    },
+    "toast": {
+      "login_success": "Vous êtes connecté avec succès",
+      "logout_success": "Vous êtes déconnecté, revenez bientôt !",
+      "verify_info": "Votre compte est déjà vérifié.",
+      "verify_success": "Vous avez vérifié votre adresse e-mail avec succès, la restriction est maintenant supprimée de votre compte",
+      "register_success": "Merci de vous être inscrit. Veuillez vérifier votre e-mail et votre numéro de téléphone portable en cliquant sur le lien reçu sur votre e-mail.",
+      "reset_password_success": "Votre mot de passe a été réinitialisé avec succès.",
+      "login_to_proceed": "Vous devez être connecté pour continuer"
+    },
+    "ajax": {
+      "login_success": "Vous êtes connecté avec succès",
+      "login_error": "Email et/ou mot de passe invalide.",
+      "otp_sent": "OTP envoyé",
+      "otp_send_error": "Impossible d'envoyer OTP, réessayez plus tard",
+      "otp_error": "Quelque chose s'est mal passé",
+      "otp_validation": "Le numéro de téléphone et l'OTP sont requis",
+      "otp_verify_success": "Vérifié",
+      "otp_verify_error": "Non-concordance OTP, veuillez vérifier et réessayer",
+      "register_success": "Merci de vous être inscrit. Veuillez vérifier votre e-mail et votre numéro de téléphone portable en cliquant sur le lien reçu sur votre e-mail.",
+      "forgot_password_success": "lien de mot de passe envoyé par e-mail.",
+      "social_media_login_error": "quelque chose s'est mal passé !",
+      "unable_to_create_account": "Impossible de créer un compte",
+      "password_updated": "Mot de passe mis à jour",
+      "otp_invalid": "L'OTP n'est pas valide",
+      "user_not_exist": "L'utilisateur n'existe pas",
+      "user_logged_out": "Utilisateur déconnecté",
+      "cross_user_request": "Demande inter-utilisateurs ou utilisateur déconnecté",
+      "invalid_session": "Session invalide",
+      "invalid_token": "jeton invalide",
+      "user_banned": "Cet utilisateur est banni",
+      "invalid_credentials": "Les informations d'identification fournies sont incorrectes."
+    },
+    "verify": {
+      "title": "Vous êtes déconnecté, revenez bientôt !"
+    }
+  },
+  "public": {
+    "404": {
+      "title": "Vous êtes déconnecté, revenez bientôt !",
+      "subtitle": "Page non trouvée",
+      "home": "Maison",
+      "contact_us": "Nous contacter"
+    },
+    "refer_earn": {
+      "invite_now_btn": "Inviter maintenant",
+      "invite_friends_btn": "Inviter des amis",
+      "invite_sent": "Invitation envoyée",
+      "invite_request_error": "La demande d'invitation a échoué"
+    },
+    "share_earn": {
+      "share_now_btn": "Partage maintenant"
+    },
+    "out_page": {
+      "skip_cashback": "Sauter",
+      "your_order_at": "<span>Profitez de la remise sur votre commande chez <span>:store</span></span>",
+      "sign_up_note": "Inscription gratuite",
+      "click_here": "Cliquez ici",
+      "taking_long_note": "Trop long à charger ? Veuillez <a class='active pointer' onclick=':LINK' >cliquer ici</a>",
+      "your_trip_id": "ID de référence : <strong>:CLKCODE</strong>",
+      "discount_on_order": "Profitez de la remise sur votre commande chez",
+      "activated_discount": "Activé sur votre commande chez :STORE",
+      "redirecting_msg": "Vous êtes redirigé vers <span>:STORE</span> ...",
+      "shop_now_btn": "Achetez maintenant",
+      "guest_order_at": "sur votre commande chez <span>:STORE</span>",
+      "adblocker_alert": "Votre bloqueur de publicités vous empêche de gagner",
+      "track_order_note": "Nous devons suivre vos clics pour savoir quand vous êtes éligible au cashback.",
+      "whitelist_adblocker": "Apprenez à ajouter un bloqueur de publicités à la liste blanche",
+      "adblocker_shop_now": "Fait! Achetez maintenant"
+    },
+    "search_page": {
+      "search_result": "Correspondance des résultats - :MOT-CLE",
+      "no_result": "Aucun résultat de recherche correspondant trouvé",
+      "stores": "Magasins",
+      "deals": "Offres",
+      "coupon": "Coupon",
+      "store_categories": "Catégories de magasins",
+      "coupon_categories": "Catégories de coupons",
+      "deal_categories": "Catégories d'offres",
+      "server_error": "Erreur interne du serveur. Nous le réparons au plus vite"
+    },
+    "store": {
+      "shop_with_cashback": "Achetez avec :CASHBACK",
+      "show_more_cashback": "Afficher plus de tarifs",
+      "show_less": "Montrer moins",
+      "store_categories": "Catégories de magasins",
+      "how_it_works": "Comment ça fonctionne",
+      "view_all_offers": "Tout afficher :offres de magasin",
+      "coupon_count": "Coupons",
+      "terms_condition": "termes et conditions",
+      "terms_dos_title": "Pour garantir le succès de votre cashback :",
+      "terms_donts_title": "Il n'est pas qualifié pour :",
+      "shopping_tips": "Conseils d'achat",
+      "similar_stores": "Magasins similaires",
+      "view_all_stores": "Voir tous les magasins",
+      "tracked_within": "Suivi à l'intérieur",
+      "confirmed_by": "Confirmé par:",
+      "missing_cashback_claim": "Demande de remboursement manquante autorisée",
+      "see_more_cashback": "Voir plus de tarifs",
+      "shop_now_btn": "Achetez maintenant",
+      "offers_count": ":COUNT Offres",
+      "explore_map_view": "Explorer la vue de la carte"
+    },
+    "home": {
+      "offer_of_day": "Offre du jour"
+    },
+    "faq": {
+      "still_question": "Encore une question",
+      "select_topic": "Sélectionnez le sujet",
+      "contact_us": "Contactez-nous et nous nous assurerons de répondre à votre question."
+    },
+    "sitemap": {
+      "deal_categories": "Catégories d'offres",
+      "coupon_categories": "Catégories de coupons",
+      "store_categories": "Catégories de magasins",
+      "all_pages": "Toutes les pages",
+      "stores": "Magasins"
+    },
+    "contact_us": {
+      "name_placeholder": "Nom",
+      "email_placeholder": "Enter Email",
+      "msg_placeholder": "Mentionnez votre requête en détail afin que nous puissions comprendre et revenir rapidement.",
+      "subject_placeholder": "Sélectionnez le sujet/objectif",
+      "submit_btn": "Soumettre",
+      "submit_success": "Merci de nous avoir contacté, nous vous répondrons dans les plus brefs délais",
+      "cashback_reward": "Remise en argent et récompense",
+      "my_account": "Mon compte",
+      "refund": "Remboursement"
+    },
+    "deal": {
+      "shop_now_btn": "Achetez maintenant",
+      "valid_until": "Valable jusqu'au :date",
+      "product_detail": "Détails du produit",
+      "similar_deals": "Offres similaires",
+      "view_all_deals": "Voir tout : Aubaines sur les MAGASIN",
+      "no_deals": "Aucune offre disponible",
+      "load_more": "Charger plus...",
+      "view_deals": "Voir toutes les offres",
+      "deals_from_stores": ":magasins STORE",
+      "deals_from_categories": ":catégories CATÉGORIE",
+      "deals_from": "Offres de",
+      "and": "et"
+    },
+    "hiw": {
+      "no_video_suuport": "Votre navigateur ne prend pas en charge la balise vidéo."
+    },
+    "hiw_app": {
+      "its_free": "C'est gratuit",
+      "add_to": "Ajouter à :plateforme",
+      "learn_more_btn": "Apprendre encore plus"
+    },
+    "testimonial": {
+      "carousel_previous": "Précédent"
+    },
+    "promo_offer": {
+      "avail_offer": "Comment bénéficier de l'offre",
+      "offer_terms": "Conditions générales de l'offre",
+      "offer_expired": "L'offre a expiré !",
+      "enter_number_placeholder": "Entrez votre numéro de téléphone",
+      "valid_msg": "Cela semble bon!",
+      "your_referral_link": "Your referral link",
+      "share_link_to_earn": "Share this referral link and earn referral cash.",
+      "copy_link": "Share this referral link and earn referral cash.",
+      "generate_new_link": "Share this referral link and earn referral cash.",
+      "your_phone_number": "Share this referral link and earn referral cash.",
+      "submit": "Share this referral link and earn referral cash.",
+      "select_offer": "Share this referral link and earn referral cash."
+    },
+    "seo": {
+      "redirect_title": "Vous êtes redirigé vers :STORE",
+      "search_result_title": "Résultats de recherche pour :MOT-CLE",
+      "verify_account": "Vérifiez votre compte"
+    },
+    "header": {
+      "sign_in": "S'identifier",
+      "join_us": "Rejoignez-nous",
+      "signin": "S'identifier"
+    },
+    "coupon": {
+      "shop_now_btn": "Achetez maintenant",
+      "load_more": "Charger plus...",
+      "no_offers": "Pas d'offres disponibles",
+      "exp": "Exp",
+      "coupons_from": "Coupons de",
+      "ongoing": "En cours"
+    },
+    "filter": {
+      "enter_price_range": "Entrez la fourchette de prix",
+      "apply_btn": "Appliquer",
+      "latest": "Dernier",
+      "popular": "Populaire",
+      "expiry": "Expiration",
+      "price_low_to_high": "Prix croissant)",
+      "price_high_to_low": "Prix (élevé à bas)",
+      "all": "Tout",
+      "coupons": "Coupons",
+      "offers": "Des offres",
+      "filter": "Filtre",
+      "category_filter": "Catégorie",
+      "store_filter": "Magasin",
+      "price_filter": "Filtre de prix",
+      "max_amount_alert": "Le montant maximum ne peut pas dépasser :PRICE",
+      "to": "À",
+      "search_cat_placeholder": "Chercher",
+      "sort_by": "Trier par"
+    },
+    "newsletter": {
+      "error": "Il semble que vous soyez déjà abonné, sinon, veuillez réessayer plus tard",
+      "success": "Abonné avec succès",
+      "enter_email": "Entrez l'e-mail",
+      "submit_btn": "Soumettre"
+    },
+    "error": {
+      "title": "Vous êtes déconnecté, revenez bientôt !",
+      "subtitle": "Le lien sur lequel vous avez cliqué est peut-être cassé ou la page a peut-être bougé.",
+      "home": "Rentrer chez soi",
+      "contact_us": "Nous contacter"
+    },
+    "common": {
+      "show_more_btn": "Montre plus",
+      "extra_cashback_rule": "Extra Cashback Rules",
+      "applicable_stores": "Applicable Stores",
+      "view_winners": "View Winners",
+      "transaction_time": "Suivi à",
+      "store_sales_count": "Numéro de transaction",
+      "store_name": "Nom du magasin",
+      "name": "Nom",
+      "email": "E-mail",
+      "cashback_amount": "Montant du remboursement",
+      "no_data_found": "Aucune donnée disponible",
+      "previous": "Précédent",
+      "next": "Prochain",
+      "extra_cashback_rule_expire_message": "Votre cashback a été augmenté de : BOOSTPERCENT fois .",
+      "expires_at": "Expire à",
+      "cashback_boost_expires_by": "Le bonus de cashback expire par :",
+      "booster_deals": "Offres d'appoint !",
+      "cashback_increased": "Votre taux de cashback a été augmenté de"
+    },
+    "verify_phone": {
+      "title": "Vous êtes déconnecté, revenez bientôt !",
+      "desc": "<strong>Avant tout, nous ne vous enverrons jamais de SMS marketing ni ne communiquerons votre numéro.</strong></stong> <strong>Nous vérifions votre numéro de téléphone portable afin de prévenir les fraudes. Par exemple, nous pouvons vous contacter sur votre téléphone mobile si nous découvrons une activité suspecte sur votre compte cashback.</strong>",
+      "msg": "Alors ne t'inquiète pas"
+    },
+    "extension_uninstall": {
+      "submit_success": "We're sorry to see you go. We hope that one day you will come back and give us another try. Until then, take care!",
+      "msg_placeholder": "Mentionnez votre requête en détail afin que nous puissions comprendre et revenir rapidement."
+    }
+  },
+  "user_dashboard": {
+    "search_filter": {
+      "popular": "Populaire",
+      "alphabetical": "Alphabétique",
+      "cashback": "Remise en argent",
+      "search_records": "Rechercher : COUNT enregistrements",
+      "search_record_placeholder": "Rechercher des enregistrements"
+    },
+    "common": {
+      "cashback": "Remise en argent",
+      "reward": "Récompense",
+      "already_verified": "Déjà vérifié ?",
+      "email_not_verified": "Votre email n'est pas encore vérifié, veuillez l'activer",
+      "verify_alert": "Veuillez vérifier votre adresse e-mail pour accéder pleinement à votre compte.",
+      "request_verification": "Demander une nouvelle vérification si l'e-mail n'est pas reçu.",
+      "resend_verification_btn": "Renvoyer l'e-mail de vérification",
+      "click_here": "Cliquez ici",
+      "cashback_reward_earning": "Remise en argent et obtention de récompenses",
+      "month_wise_earning": "Afficher les remises en argent et les bonus mensuels",
+      "shopping_trips": "Voyages de magasinage",
+      "view_daily_clicks": "Afficher les clics quotidiens des derniers DAYS jours",
+      "up_to": "Jusqu'à",
+      "flat": "Appartement",
+      "are_you_sure": "Êtes-vous sûr?",
+      "yes": "Oui",
+      "no": "Non"
+    },
+    "overview": {
+      "total_earned": "Total Gagné",
+      "available": "disponible",
+      "paid": "Payé",
+      "pending": "En attente"
+    },
+    "payment": {
+      "payments_tab": "Paiements",
+      "history_tab": "Histoire",
+      "amount_validation_alert": "Le montant doit être supérieur au montant minimum payable",
+      "available_for_payment": "Disponible pour paiement",
+      "payment_mode": "Votre mode de paiement",
+      "minimum_payout": "Paiement minimal",
+      "available_payout": "Paiement disponible",
+      "add_payment_mode": "Ajouter un nouveau mode de paiement",
+      "not_enough_amount": "Pas assez de montant",
+      "cashback": "Remise en argent",
+      "reward": "Récompense",
+      "request_payout": "Demande Paiement",
+      "payout_request_success": "Paiement demandé avec succès",
+      "payout_request_error": "La demande de paiement a échoué ! Réessayer",
+      "pending_payment": "Votre demande précédente est en cours de traitement, veuillez faire une nouvelle demande ultérieurement.",
+      "not_found": "Demande de paiement introuvable",
+      "already_verified": "La demande est déjà vérifiée",
+      "success_verified": "La demande de paiement est vérifiée avec succès",
+      "email_sent": "E-mail envoyé avec succès!",
+      "email_request_failed": "La demande par e-mail a échoué",
+      "enter_amount": "Entrer le montant",
+      "enter_valid_amount": "Veuillez entrer un montant valide. La valeur décimale n'est pas acceptée",
+      "previous_request_in_process": "Votre demande précédente est en cours de traitement, veuillez faire une nouvelle demande ultérieurement.",
+      "account": "Compte"
+    },
+    "activities": {
+      "shopping_tab": "Achats",
+      "referral_tab": "Référence",
+      "bonus_tab": "Prime",
+      "click_tab": "Clics"
+    },
+    "refer_earn": {
+      "invite_friends_reward": "pour toutes les transactions effectuées par votre ami.",
+      "copy_link": "Copier le lien",
+      "referral_link_note": "Votre lien de parrainage unique",
+      "invite_by_email": "Inviter par email",
+      "email_placeholder": "Enter Email",
+      "share_with_social": "Partager avec les réseaux sociaux",
+      "referral_terms": "Conditions de parrainage",
+      "referral_activities": "Vos activités de parrainage",
+      "email_error": "Saisissez une adresse e-mail valide",
+      "see_terms": "Voir les conditions",
+      "invite_sent": "Invitation envoyée",
+      "enter_email_placeholder": "Entrez l'e-mail",
+      "invite": "Inviter",
+      "invite_bonus_condition": "(* Le bonus sera suivi comme étant en attente, vous et vos amis devez gagner du cashback d'une valeur : MAXCASHBACK dans les : REDEEMLIMIT jours suivant votre inscription pour pouvoir obtenir la confirmation du bonus, faute de quoi il expirera)",
+      "invite_friends_bonus": "Lorsque quelqu'un se joint à l'aide de votre lien de parrainage, vous gagnerez",
+      "join_with_refer": "Tout ami rejoignant notre plateforme gagnera",
+      "how_refer_earn_works": "Comment fonctionne Refer & Earn",
+      "eligibility_terms": "Conditions d'éligibilité",
+      "eligibility_terms_first": "Le bonus de parrainage est confirmé lorsque le cashback confirmé vaut :MONTANT gagné en :DAYS jours",
+      "eligibility_terms_second": "Le bonus d'adhésion est confirmé lorsque le cashback confirmé vaut :MONTANT gagné dans les :DAYS jours.",
+      "eligibility_terms_third": "Votre bonus de parrainage n'est confirmé que lorsque votre bonus d'ami parrainé est confirmé.",
+      "eligibility_terms_fourth": "Le statut des gains de parrainage est directement lié au statut des transactions de votre ami.",
+      "referral_reward": "Récompense de parrainage",
+      "referral_bonus": "Prime de parrainage",
+      "joining_bonus": "Bonus d'adhésion",
+      "disable_warn": "Refer & Earn est désactivé pour votre compte, veuillez nous contacter pour plus d'informations"
+    },
+    "share_earn": {
+      "create_link": "Créez vos propres liens et gagnez de l'argent lorsque d'autres achètent",
+      "link_title_note": "Entrez le titre significatif afin que votre ami connaisse les détails de l'offre.",
+      "offer_link_placeholder": "Entrez le lien de l'offre",
+      "offer_title_placeholder": "Entrez le titre de l'offre",
+      "link_note": "Entrez un lien clair, pas de référence et des liens personnalisés",
+      "create_link_btn": "Créer un lien",
+      "learn_share_earn": "Apprendre Partager & Gagner",
+      "link_success_msg": "Lien créé avec succès. Copiez ce lien et partagez",
+      "share_with": "Partager avec",
+      "validation_error": "Veuillez remplir tous les détails",
+      "offer_title": "Titre de l'offre",
+      "copy_link": "Copier le lien",
+      "or": "OU",
+      "create_new_link": "Créer un nouveau lien",
+      "offer_title_note": "Entrez le titre significatif afin que votre ami connaisse les détails de l'offre.",
+      "link_error_msg": "Veuillez entrer un lien valide",
+      "network_error": "Erreur réseau",
+      "copied_link": "Lien copié",
+      "offer_link": "Lien vers l'offre",
+      "how_share_earn_works": "Comment fonctionne le partage et les gains",
+      "see_terms": "Voir les conditions",
+      "disable_warn": "Share & Earn est désactivé pour votre compte, veuillez nous contacter pour plus d'informations"
+    },
+    "account_setting": {
+      "edit_profile": "Editer le profil",
+      "manage_profile": "Gérez les informations de votre profil.",
+      "firstname_placeholder": "Entrez votre prénom",
+      "lastname_placeholder": "Entrer le nom de famille",
+      "change_password": "Changer le mot de passe",
+      "manage_password": "Gérer le mot de passe",
+      "current_password": "Mot de passe actuel",
+      "current_password_placeholder": "Entrer le mot de passe actuel",
+      "new_password": "nouveau mot de passe",
+      "change_password_btn": "Changer le mot de passe",
+      "change_email_note": "Pour modifier votre adresse e-mail, veuillez nous contacter.",
+      "resend_btn": "Renvoyer",
+      "confirm_password_validation": "Le nouveau mot de passe et les mots de passe de confirmation ne correspondent pas",
+      "form_validation": "Entrez toutes les valeurs",
+      "firstname": "Prénom",
+      "lastname": "Nom de famille",
+      "save_btn": "sauvegarder",
+      "new_password_placeholder": "Entrez un nouveau mot de passe",
+      "confirm_password": "Confirmez le mot de passe",
+      "confirm_password_placeholder": "Entrez Confirmer le mot de passe",
+      "email": "E-mail",
+      "email_placeholder": "Enter Email",
+      "link_mobile_number": "Associer le numéro de mobile",
+      "link_number_note": "Contactez-nous pour changer votre numéro de mobile.",
+      "bio_placeholder": "Bio",
+      "bio": "Bio",
+      "birth_date": "Date de naissance",
+      "anniversary_date": "Date d'anniversaire",
+      "gender": "Le genre",
+      "marital_status": "État civil",
+      "occupation": "Profession",
+      "occupation_placeholder": "Profession",
+      "address": "Adresse",
+      "address_placeholder": "Adresse",
+      "city": "Ville",
+      "city_placeholder": "Ville",
+      "state": "État",
+      "state_placeholder": "État",
+      "country": "Pays",
+      "pincode": "Code PIN",
+      "pincode_placeholder": "Code PIN",
+      "choose_lang": "Choisissez la langue",
+      "profile_info_updated": "Mise à jour du profil réussie!",
+      "request_failed_try_again": "Demande échoué. Veuillez réessayer!",
+      "lang_updated": "Langue mise à jour avec succès !",
+      "lang_update_request_failed": "Échec de la demande de mise à jour de la langue",
+      "password_change_success": "Le mot de passe a été changé avec succès!",
+      "change_password_error": "La demande de changement de mot de passe a échoué ! Réessayer",
+      "activation_link_sent": "Lien d'activation du compte envoyé à votre courrier, veuillez vérifier",
+      "activation_failed": "L'activation du compte a échoué",
+      "name_updated": "Nom mis à jour avec succès !",
+      "male": "Homme",
+      "female": "Femelle",
+      "other": "Autre",
+      "enter_value_alert": "Veuillez remplir tous les champs obligatoires",
+      "married": "Marié",
+      "single": "Seul",
+      "please_select": "Veuillez sélectionner",
+      "email_verification_note": "E-mail NON vérifié. Renvoyer l'e-mail de vérification.",
+      "wrong_password": "La valeur actuelle du mot de passe est incorrecte",
+      "invalid_lang": "Langue invalide",
+      "same_password": "Le mot de passe actuel et le nouveau mot de passe sont similaires. Veuillez choisir un autre mot de passe",
+      "account_deleted": "Compte supprimé",
+      "delete_my_account": "Supprimer mon compte"
+    },
+    "payment_mode": {
+      "validation_error": "Veuillez remplir tous les détails",
+      "name": "Nom",
+      "add": "Ajouter",
+      "name_placeholder": "Espace réservé pour le nom",
+      "payment_mode_success": "Mode de paiement ajouté avec succès !",
+      "payment_mode_error": "Échec de la demande d'ajout du mode de paiement",
+      "invalid_mode": "Mode de paiement invalide",
+      "not added": "Module de plat ? nu a fost ad?ugat",
+      "payment_mode_not_exist": "Le mode de paiement n'existe pas.",
+      "payment_mode_delete_success": "Mode de paiement supprimé avec succès !",
+      "payment_mode_update_error": "La demande de mise à jour du mode de paiement a échoué",
+      "payment_mode_update_success": "Mode de paiement mis à jour avec succès !"
+    },
+    "favorites": {
+      "no_favorite_found": "Aucun magasin préféré trouvé !",
+      "loading": "Chargement en cours...",
+      "cashback": "Remise en argent",
+      "shop_now": "Achetez maintenant"
+    },
+    "claim": {
+      "validation_error": "Veuillez remplir tous les détails",
+      "create_claim": "Créer une réclamation",
+      "create_claim_btn": "Créer une réclamation",
+      "store": "Magasin",
+      "shopping_trip": "Voyage de magasinage",
+      "ordering_platform": "Plateforme de commande",
+      "order_id": "numéro de commande",
+      "currency": "Devise",
+      "amount_placeholder": "Montant",
+      "date": "L'attribut :n'est pas une date valide.",
+      "additional_information": "Informations Complémentaires",
+      "submit_btn": "Soumettre",
+      "note": "Nous ne publierons jamais rien sans votre permission",
+      "create_claim_success": "Revendication créée avec succès !",
+      "claim_request_failed": "La demande de réclamation a échoué ! Réessayer",
+      "no_claims": "Aucune réclamation trouvée !",
+      "purchase_date": "date d'achat",
+      "website": "Site Internet",
+      "mobile": "Mobile",
+      "ios": "iOS",
+      "android": "Android",
+      "ordering_id": "ID de commande",
+      "closed": "La réclamation est fermée",
+      "receipt": "Reçu",
+      "max_size_note": "Taille de fichier maximale autorisée :MAXSIZE . Format accepté - jpeg,jpg,png,pdf",
+      "no_click_note": "Aucun voyage d'achat n'a été trouvé au cours des deux derniers jours pour signaler la réclamation manquante, veuillez vérifier plus tard",
+      "show": "Spectacle"
+    },
+    "nav_menu": {
+      "welcome": "Accueillir!",
+      "joined_on": "Inscrit le"
+    },
+    "pagination": {
+      "show": "Spectacle",
+      "page": "Page"
+    }
+  },
+  "table": {
+    "shopping": {
+      "no_data": "Aucune donnée disponible",
+      "click_id": "Cliquez sur",
+      "date": "L'attribut :n'est pas une date valide.",
+      "store": "Magasin",
+      "order_amount": "Montant de la commande",
+      "cashback_amount": "Montant du remboursement",
+      "status": "Statut",
+      "transaction_time": "Suivi à",
+      "confirmed_by": "Confirmé par:",
+      "confirmed": "Confirmé",
+      "pending": "En attente",
+      "declined": "Diminué",
+      "reward": "Récompense",
+      "cashback": "Remise en argent"
+    },
+    "referral": {
+      "date": "L'attribut :n'est pas une date valide.",
+      "transaction_by": "Transaction par",
+      "store": "Magasin",
+      "amount": "Montant",
+      "status": "Statut",
+      "no_data": "Aucune donnée disponible",
+      "order_amount": "Montant de la commande",
+      "referral_amount": "Montant de référence",
+      "pending": "En attente",
+      "confirmed": "Confirmé",
+      "declined": "Diminué",
+      "joined": "Rejoint",
+      "invited": "Invité"
+    },
+    "bonus": {
+      "status": "Statut",
+      "date": "L'attribut :n'est pas une date valide.",
+      "type": "Taper",
+      "amount": "Montant",
+      "no_data": "Aucune donnée disponible",
+      "expires_on": "Expire le",
+      "pending": "En attente",
+      "confirmed": "Confirmé",
+      "declined": "Diminué"
+    },
+    "click": {
+      "trip_date": "Date du voyage",
+      "click_id": "Cliquez sur",
+      "store": "Magasin",
+      "cashback": "Remise en argent",
+      "status": "Statut",
+      "no_data": "Aucune donnée disponible",
+      "tracked": "Suivi",
+      "clicked": "cliqué",
+      "network_campaign_id": "ID de campagne"
+    },
+    "claim": {
+      "claim_date": "Date de réclamation",
+      "shopping_trip_date": "Date du voyage d'achat",
+      "status": "Statut",
+      "store": "Magasin",
+      "order_id": "numéro de commande",
+      "order_amount": "Montant de la commande",
+      "created": "Établi",
+      "completed": "Complété",
+      "processing": "Traitement",
+      "declined": "Diminué",
+      "open": "Ouvert",
+      "hold": "Tenir",
+      "answered": "Répondu",
+      "closed": "La réclamation est fermée",
+      "claim_id": "ID de réclamation",
+      "network_campaign_id": "ID de campagne"
+    },
+    "refer_earn": {
+      "invited_date": "Date d'invité",
+      "email": "E-mail",
+      "joining_date": "Date d'inscription",
+      "name": "Nom",
+      "earning": "Revenus"
+    },
+    "share_earn": {
+      "created": "Établi",
+      "offer_link": "Lien vers l'offre",
+      "store": "Magasin",
+      "cashback": "Remise en argent",
+      "earnings": "Gains",
+      "clicks": "Clics"
+    },
+    "payment_history": {
+      "date": "L'attribut :n'est pas une date valide.",
+      "withdrawal_id": "Identifiant de retrait",
+      "account_type": "Type de compte",
+      "payment_account": "Compte de paiement",
+      "amount": "Montant",
+      "status": "Statut",
+      "resend_email": "Ré-envoyer l'email",
+      "pending_verification": "En attente de vérification par e-mail"
+    },
+    "general": {
+      "no_data": "Aucune donnée disponible"
+    },
+    "cashback": {
+      "pending": "En attente",
+      "confirmed": "Confirmé",
+      "declined": "Diminué"
+    },
+    "payment": {
+      "created": "Établi",
+      "processing": "Traitement",
+      "completed": "Complété",
+      "declined": "Diminué",
+      "pending": "En attente",
+      "confirmed": "Confirmé"
+    }
+  },
+  "common": {
+    "header_search": {
+      "search_placehoder": "Rechercher dans le magasin"
+    },
+    "scroll_up": {
+      "top": "Haut"
+    },
+    "search_filter": {
+      "cashback": "Remise en argent",
+      "popular": "Populaire",
+      "alphabetical": "Alphabétique",
+      "store_with_cashback": "Afficher les magasins avec cashback",
+      "search_cat": "Catégories de recherche",
+      "search_stores": "Rechercher des magasins",
+      "filter_btn": "Filtre"
+    },
+    "breadcrumb": {
+      "home": "Maison",
+      "all_stores": "Tous les magasins",
+      "all_deals": "Toutes les offres",
+      "all_coupon_categories": "Toutes les catégories de coupons",
+      "all_store_categories": "Toutes les catégories de magasins",
+      "daily_deals": "Offres quotidiennes",
+      "all_deal_categories": "Toutes les catégories d'offres",
+      "extra_cashback_rules": "Extra Cashback Rules"
+    },
+    "general": {
+      "best_offer": "Meilleure offre",
+      "see_more": "Voir plus",
+      "see_less": "Voir moins",
+      "view_more_deals": "Voir plus :CATÉGORIE Offres",
+      "yes": "Oui",
+      "no": "non",
+      "get_code_btn": "Obtenir le code",
+      "view_more_store": "Voir plus :Magasins de CATÉGORIE",
+      "view_more_coupons": "Voir plus :CATÉGORIECoupons",
+      "copy_code_tooltip": "Copier le code et visiter le marchand",
+      "get_discount": "Obtenez une réduction",
+      "show_more": "Montre plus",
+      "shop_now_btn": "Achetez maintenant",
+      "see_more_cashback": "Voir plus de remises en argent",
+      "android": "Android",
+      "apple": "Pomme",
+      "chrome": "Chrome",
+      "firefox": "Firefox",
+      "safari": "Safari",
+      "no_stores": "Pas de magasins, veuillez revenir plus tard",
+      "edge": "Bord"
+    },
+    "store_cashback": {
+      "was_cashback_string": "Était : CASHBACK",
+      "upto": "Jusqu'à",
+      "flat": "Appartement"
+    },
+    "cta": {
+      "join_now": "Adhérer maintenant",
+      "existing_user": "Utilisateur existant",
+      "login": "Connexion",
+      "already_register": "Déjà enregistré?"
+    },
+    "mobile_menu": {
+      "logout": "Se déconnecter",
+      "language": "Langue",
+      "my_account": "Mon compte",
+      "signin": "S'identifier",
+      "join_us": "Rejoignez-nous"
+    },
+    "error": {
+      "general": "Quelque chose s'est mal passé, réessayez plus tard"
+    },
+    "desktop_menu": {
+      "signin": "S'identifier",
+      "join_us": "Rejoignez-nous"
+    }
+  },
+  "custom_validation": {
+    "attribute-name": {
+      "rule-name": "nom_règle"
+    },
+    "g-recaptcha-response": {
+      "required": "Le champ :attribut est obligatoire."
+    },
+    "general": {
+      "captcha": "Erreur CAPTCHA! Réessayez plus tard ou contactez l'administrateur du site."
+    }
+  },
+  "validation": {
+    "general": {
+      "accepted": "L'attribut : doit être accepté.",
+      "active_url": "L'attribut :n'est pas une URL valide.",
+      "after": "Le :attribut doit être une date après :date.",
+      "after_or_equal": "Le :attribut doit être une date postérieure ou égale à :date.",
+      "alpha": "L'attribut :ne peut contenir que des lettres.",
+      "alpha_dash": "L'attribut : ne peut contenir que des lettres, des chiffres, des tirets et des traits de soulignement.",
+      "alpha_num": "L'attribut :ne peut contenir que des lettres et des chiffres.",
+      "array": "Le :attribut doit être un tableau.",
+      "before": "Le :attribut doit être une date avant :date.",
+      "before_or_equal": "Le :attribut doit être une date antérieure ou égale à :date.",
+      "boolean": "Le champ :attribute doit être vrai ou faux.",
+      "confirmed": "Confirmé",
+      "date": "L'attribut :n'est pas une date valide.",
+      "date_equals": "Le :attribut doit être une date égale à :date.",
+      "date_format": "Le :attribut ne correspond pas au format :format.",
+      "different": "Le :attribut et :autre doivent être différents.",
+      "digits": "Le :attribut doit être :chiffres.",
+      "digits_between": "Le :attribut doit être compris entre :min et :max chiffres.",
+      "dimensions": "L'attribut : a des dimensions d'image non valides.",
+      "distinct": "Le champ :attribute a une valeur en double.",
+      "email": "E-mail",
+      "ends_with": "Le :attribute doit se terminer par l'un des éléments suivants : :values.",
+      "exists": "L'attribut : sélectionné n'est pas valide.",
+      "file": "Le champ :attribute a une valeur en double.",
+      "filled": "Le champ :attribute doit avoir une valeur.",
+      "image": "L'attribut : doit être une image.",
+      "in": "L'attribut : sélectionné n'est pas valide.",
+      "in-array": "Le champ :attribute n'existe pas dans :other.",
+      "integer": "L'attribut : doit être un entier.",
+      "ip": "L'attribut : doit être une adresse IP valide.",
+      "ipv4": "L'attribut : doit être une adresse IPv4 valide.",
+      "ipv6": "L'attribut : doit être une adresse IPv6 valide.",
+      "json": "L'attribut : doit être une chaîne JSON valide.",
+      "mimes": "Le :attribute doit être un fichier de type : :values.",
+      "mimetypes": "Le :attribute doit être un fichier de type : :values.",
+      "not_in": "L'attribut : sélectionné n'est pas valide.",
+      "not_regex": "Le format :attribut n'est pas valide.",
+      "numeric": "Le :attribut doit être un nombre.",
+      "password": "Le mot de passe est incorrect.",
+      "present": "Le champ :attribut doit être présent.",
+      "regex": "Le format :attribut n'est pas valide.",
+      "required": "Le champ :attribut est obligatoire.",
+      "required_if": "Le champ :attribute est obligatoire lorsque :other vaut :value.",
+      "required_unless": "Le champ :attribute est obligatoire sauf si :other est dans :values.",
+      "required_with": "Le champ :attribute est obligatoire lorsque :values est présent.",
+      "required_with_all": "Le champ :attribute est obligatoire lorsque :des valeurs sont présentes.",
+      "required_without": "Le champ :attribute est obligatoire lorsque :values n'est pas présent.",
+      "required_without_all": "Le champ :attribute est obligatoire lorsqu'aucune des :valeurs n'est présente.",
+      "same": "Le :attribut et :autre doivent correspondre.",
+      "string": "Le :attribut doit être une chaîne.",
+      "timezone": "L'attribut : doit être une zone valide.",
+      "unique": "L'attribut :a déjà été pris.",
+      "uploaded": "L':attribut n'a pas pu être téléchargé.",
+      "url": "Le format :attribut n'est pas valide.",
+      "uuid": "L'attribut : doit être un UUID valide.",
+      "email_not_exist": "L'e-mail n'existe pas",
+      "not_registerd_using_email": "Vous ne pouvez pas réinitialiser le mot de passe car vous ne vous êtes pas enregistré par e-mail",
+      "phone_number_exist": "Le numéro de téléphone existe déjà"
+    },
+    "between": {
+      "numeric": "Le :attribut doit être compris entre :min et :max.",
+      "file": "Le :attribut doit être compris entre :min et :max kilo-octets.",
+      "string": "Le :attribut doit être compris entre :min et :max caractères.",
+      "array": "Le :attribut doit être compris entre les éléments :min et :max."
+    },
+    "gt": {
+      "numeric": "Le :attribut doit être supérieur à :valeur.",
+      "file": "Le :attribut doit être supérieur à :value kilo-octets.",
+      "string": "Le :attribut doit être supérieur à :valeur caractères.",
+      "array": "Le :attribut doit avoir plus de :value éléments"
+    },
+    "gte": {
+      "numeric": "Le :attribut doit être supérieur ou égal à :valeur.",
+      "file": "Le :attribut doit être supérieur ou égal à :value kilo-octets.",
+      "string": "Le :attribut doit être supérieur ou égal à :valeur caractères.",
+      "array": "Le :attribut doit avoir des éléments :value ou plus."
+    },
+    "lt": {
+      "numeric": "Le :attribut doit être inférieur à :valeur.",
+      "file": "Le :attribut doit être inférieur à :value kilo-octets.",
+      "string": "Le :attribut doit être inférieur à :valeur caractères.",
+      "array": "Le :attribut doit avoir moins de :value éléments."
+    },
+    "lte": {
+      "numeric": "Le :attribut doit être inférieur ou égal à :valeur.",
+      "file": "Le :attribut doit être inférieur ou égal à :value kilo-octets.",
+      "string": "Le :attribut doit être inférieur ou égal à :valeur caractères.",
+      "array": "Le :attribute ne doit pas avoir plus de :éléments de valeur."
+    },
+    "max": {
+      "numeric": "Le :attribut ne peut pas être supérieur à :max.",
+      "file": "Le :attribut ne peut pas être supérieur à :max kilo-octets.",
+      "string": "Le :attribut ne peut pas être supérieur à :max caractères.",
+      "array": "Le :attribut ne peut pas avoir plus de :max éléments."
+    },
+    "min": {
+      "numeric": "Le :attribut doit être au moins :min.",
+      "file": "L' :attribut doit être d'au moins :min kilo-octets.",
+      "string": "Le :attribut doit contenir au moins :min caractères.",
+      "array": "Le :attribut doit avoir au moins :min éléments."
+    },
+    "size": {
+      "numeric": "Le :attribut doit être :size.",
+      "file": "Le :attribut doit être :size kilo-octets.",
+      "string": "L'attribut : doit contenir des caractères :size.",
+      "array": "L'attribut : doit contenir des éléments :size."
+    },
+    "attributes": {
+      "email": "E-mail",
+      "g-recaptcha-response": "g-recaptcha-réponse",
+      "privacy policy": "Politica de confiden?ialitate",
+      "referrer_code": "Code de référence",
+      "password": "Mot de passe",
+      "phone": "Téléphoner",
+      "store_id": "Magasin",
+      "click_id": "Cliquez sur",
+      "platform": "Plateforme",
+      "order_amount": "Montant de la commande",
+      "currency": "Devise",
+      "transaction_date": "Date de la transaction",
+      "user_message": "Message de l'utilisateur",
+      "comment": "Commentaire",
+      "mode": "Mode",
+      "method_name": "Nom de la méthode",
+      "account": "Compte",
+      "pay_mode": "Mode de paiement",
+      "payment_amount": "Montant du paiement",
+      "old_password": "ancien mot de passe",
+      "new_password": "nouveau mot de passe",
+      "repeat_password": "Répéter le mot de passe",
+      "name": "Nom",
+      "message": "Message",
+      "reason": "Raison",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "otp": "OTP",
+      "phone_number": "Numéro de téléphone",
+      "order_id": "numéro de commande"
+    }
+  },
+  "app": {
+    "auth": {
+      "email_sent": "L'email a été envoyé"
+    }
+  },
+  "mail": {
+    "extention": {
+      "install_extension": "Installez : l'extension de navigateur APPNAME",
+      "never_miss_cashback": "Ne manquez jamais de gagner du cashback supplémentaire !"
+    },
+    "app": {
+      "access_from_smartphone": "Accédez maintenant à :APPNAME depuis votre Smartphone !"
+    },
+    "social": {
+      "get_social": "Soyons sociaux !"
+    },
+    "footer": {
+      "note": "Nous ne publierons jamais rien sans votre permission"
+    }
+  }
+}

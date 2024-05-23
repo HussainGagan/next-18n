@@ -1,0 +1,115 @@
+{
+  "auth": {
+    "form": {
+      "email_placeholder": "ddsdsd",
+      "password_placeholder": "sdfsdf",
+      "existing_user": "dffsd",
+      "note": "dfsdf",
+      "terms_apply": "fdfdfds",
+      "remember_me": "dsfsdfs",
+      "reset_password": null,
+      "email_valid_msg": null,
+      "forgot_password_link": null,
+      "forgot_password_note": null,
+      "time_left": null,
+      "not_member": null,
+      "sign_up_get": null,
+      "today": null,
+      "social_media_signup": null,
+      "someone_refer_you": null,
+      "enter_otp": null,
+      "social_media_email_validation": null,
+      "agree_policy": null,
+      "forgot_password": null,
+      "signin": null,
+      "send_reset_link": null,
+      "signin_with_facebook": null,
+      "signin_with_google": null,
+      "signin_with_apple": null,
+      "enter_mobile_number": null,
+      "request_otp": null,
+      "resend_otp": null,
+      "verify_now": null,
+      "referral_code_placeholder": null,
+      "email_placeholder_2": null,
+      "email_placeholder_test_2": null,
+      "email_placeholder_test_3": null,
+      "email_placeholder_6": null
+    },
+    "button": {
+      "change_password": null,
+      "signin": null,
+      "join_now": null,
+      "logout": null
+    },
+    "general": {
+      "failed": null,
+      "throttle": null,
+      "invalid_signature": null,
+      "maintenance_mode": null,
+      "maintenance_mode_desc": null,
+      "maintenance_mode_meta_title": null
+    },
+    "toast": {
+      "login_success": null,
+      "logout_success": null,
+      "verify_info": null,
+      "verify_success": null,
+      "register_success": null,
+      "reset_password_success": null,
+      "login_to_proceed": null
+    },
+    "ajax": {
+      "login_success": null,
+      "login_error": null,
+      "otp_sent": null,
+      "otp_send_error": null,
+      "otp_error": null,
+      "otp_validation": null,
+      "otp_verify_success": null,
+      "otp_verify_error": null,
+      "register_success": null,
+      "forgot_password_success": null,
+      "social_media_login_error": null,
+      "unable_to_create_account": null,
+      "password_updated": null,
+      "otp_invalid": null,
+      "user_not_exist": null,
+      "user_logged_out": null,
+      "cross_user_request": null,
+      "invalid_session": null,
+      "invalid_token": null,
+      "user_banned": null,
+      "invalid_credentials": null
+    },
+    "verify": {
+      "title": null
+    }
+  },
+  "user_dashboard": {
+    "refer_earn": {
+      "email_placeholder": "ddsdsd"
+    },
+    "account_setting": {
+      "email_placeholder": "ddsdsd"
+    },
+    "claim": {
+      "note": "dfsdf"
+    }
+  },
+  "public": {
+    "contact_us": {
+      "email_placeholder": "ddsdsd"
+    }
+  },
+  "common": {
+    "cta": {
+      "existing_user": "dffsd"
+    }
+  },
+  "mail": {
+    "footer": {
+      "note": "dfsdf"
+    }
+  }
+}

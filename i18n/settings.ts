@@ -14,5 +14,11 @@ export function getOptions(lang = FALLBACK_LOCALE, ns = 'common'): InitOptions {
     fallbackLng: FALLBACK_LOCALE,
     lng: lang,
     ns,
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+      requestOptions: {
+        cache: 'no-cache', // Ensure no caching for the request
+      },
+    },
   };
 }
