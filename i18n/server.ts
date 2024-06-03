@@ -9,16 +9,18 @@ import {
 } from './settings';
 import {cookies} from 'next/headers';
 import {getTranslationFileFromAPI} from '../actions/action';
+import HttpBackend from 'i18next-http-backend';
 
 async function initI18next(lang: Locales, namespace: string) {
   const i18nInstance = createInstance();
   await i18nInstance
     .use(initReactI18next)
+    .use(HttpBackend)
     .use(
       resourcesToBackend(
         // Get the JSON file that matches the locale and namespace
         async (lang: string, ns: string) => {
-          console.log('in');
+          console.log('in server');
           const data = await getTranslationFileFromAPI({lang, from: 'server'});
           return data;
           // import(`./locales/${lang}/${ns}.json`);

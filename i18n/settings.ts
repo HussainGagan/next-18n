@@ -1,4 +1,4 @@
-import type {InitOptions} from 'i18next';
+import {reloadResources, type InitOptions} from 'i18next';
 
 export const FALLBACK_LOCALE = 'en';
 export const supportedLocales = ['en', 'de', 'fr'] as const;
@@ -15,10 +15,11 @@ export function getOptions(lang = FALLBACK_LOCALE, ns = 'common'): InitOptions {
     lng: lang,
     ns,
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
+      loadPath: `/locales/{{lng}}/{{ns}}.json?v=${new Date().getTime()}`,
       requestOptions: {
         cache: 'no-cache', // Ensure no caching for the request
       },
+      // reloadInterval: 1000,
     },
   };
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect} from 'react';
+import React, {useEffect} from 'react';
 import i18next, {i18n} from 'i18next';
 import {initReactI18next, useTranslation as useTransAlias} from 'react-i18next';
 import resourcesToBackend from 'i18next-resources-to-backend';
@@ -15,7 +15,6 @@ import {
 } from './settings';
 import {useLocale} from '../hooks/locale-provider';
 import {getTranslationFileFromAPI} from '../actions/action';
-import i18nextHttpBackend from 'i18next-http-backend';
 
 const runsOnServerSide = typeof window === 'undefined';
 
@@ -23,19 +22,16 @@ const runsOnServerSide = typeof window === 'undefined';
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
-  .use(i18nextHttpBackend)
   .use(
-    resourcesToBackend(async (lang: string, ns: string) => {
-      console.log('in client');
-      const data = await getTranslationFileFromAPI({lang, from: 'client'});
-      console.log(data);
-      return data;
-      // import(`./locales/${lang}/${ns}.json`);
-    }),
+    resourcesToBackend(
+      (lang: string, ns: string) =>
+        import(`../public/locales/${lang}/${ns}.json`),
+    ),
   )
+  .use(HttpBackend)
   .init({
     ...getOptions(),
-    lng: undefined, // detect the language on the client
+    lng: 'en', // detect the language on the client
     detection: {
       // We only care about the cookie
       order: ['cookie'],
@@ -45,10 +41,15 @@ i18next
       caches: ['cookie'],
     },
     preload: runsOnServerSide ? supportedLocales : [],
+    // react: {
+    //   useSuspense: true, // Enable Suspense
+    // },
   });
 
 export function useTranslation(ns: string = 'common') {
   const lng = useLocale();
+
+  console.log({lng});
 
   const translator = useTransAlias(ns);
   const {i18n} = translator;
@@ -69,5 +70,6 @@ function useCustomTranslationImplem(i18n: i18n, lng: Locales) {
   useEffect(() => {
     if (!lng || i18n.resolvedLanguage === lng) return;
     i18n.changeLanguage(lng);
+    i18n.reloadResources(lng);
   }, [lng, i18n]);
 }
